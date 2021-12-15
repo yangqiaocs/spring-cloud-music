@@ -6,3 +6,7 @@ data/
 file/
 config/
 token
+*/target/
+*/src/test/
+src/
+
