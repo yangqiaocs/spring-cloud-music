@@ -1,0 +1,36 @@
+file: Users/qiao_yang/Desktop/stw/music
+
+
+
+
+spring:
+#  cloud:
+#    config:
+#      fail-fast: true
+#      name: song
+#      discovery:
+#        service-id: config
+#        enabled: true
+
+#  resources:
+#    static-locations: file:/Users/qiao_yang/Desktop/stw/music
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: selfmusic
+    url: jdbc:mysql://mysql:3306/music?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+  application:
+    name: song
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/ysj/mapper/xml/*.xml
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:8080/eureka/
+server:
+  port: 8080
