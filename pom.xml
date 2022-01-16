@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ysj</groupId>
-    <artifactId>selfmusic</artifactId>
+    <artifactId>spring-cloud-music</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -14,9 +14,7 @@
         <module>song</module>
         <module>user</module>
         <module>gateway</module>
-        <module>file</module>
         <module>danmu</module>
-        <module>data</module>
     </modules>
 
     <parent>
@@ -33,7 +31,6 @@
 <!--            <artifactId>spring-boot-starter-web</artifactId>-->
 <!--        </dependency>-->
     </dependencies>
-
 
     <dependencyManagement>
         <dependencies>

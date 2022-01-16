@@ -44,7 +44,7 @@ public class SongController {
      *根据某首歌的id得到此首歌曲的信息
      */
     @PostMapping("/getsong")
-    public Song getSong(String songId){
+    public Song getSong(@RequestParam String songId){
         return songService.getById(songId);
 
     }
