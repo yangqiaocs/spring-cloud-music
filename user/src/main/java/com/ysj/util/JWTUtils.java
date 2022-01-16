@@ -9,8 +9,8 @@ public class JWTUtils {
 
 
 
-    private static long EXPERIES_TIME = 1000 * 60 * 10;
-    private static long REFRESH_TIME = 1000 * 60 * 15;
+    private static long EXPERIES_TIME = 1000 * 60 * 24 * 60;
+    private static long REFRESH_TIME = 1000 * 60 * 24 * 60;
     private static String signature  = "test-jwt";
 
     public static String createJWT(){

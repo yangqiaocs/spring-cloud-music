@@ -43,14 +43,14 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public Map<String,Object> login(@RequestBody Map map){
+    public Map<String,Object> login(@RequestParam String username,@RequestParam String password){
         HashMap<String,Object> query = new HashMap<>();
-        query.put("user_nickname",map.get("username"));
-        query.put("user_password",map.get("password"));
+        query.put("user_nickname",username);
+        query.put("user_password",password);
         List<User> res = userService.listByMap(query);
         if(res.size() > 0){
             User user = res.get(0);
-            redisTemplate.opsForValue().setIfAbsent(map.get("username"),user);
+            redisTemplate.opsForValue().setIfAbsent(username,user);
             query.put("token",JWTUtils.createJWT());
             return query;
         }

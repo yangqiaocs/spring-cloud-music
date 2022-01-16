@@ -1,17 +1,17 @@
+file: Users/qiao_yang/Desktop/stw/music
+
+
+
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     name: selfmusic
-    url: jdbc:mysql://mysql:3306/selfmusic?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 977372ysj
   application:
-    name: user
-  redis:
-    database: 0
-    host: redis
-    port: 6379
-    timeout: 1000
+    name: song
 
 mybatis-plus:
   configuration:
@@ -23,6 +23,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:${eureka.client.eureka-server-port}/eureka/
     eureka-server-port: 9090
-
 server:
-  port: 9010
+  port: 9020

@@ -1,8 +1,8 @@
 .idea/
 music_Song.sql
 selfmusic_user.sql
-danmu/
-data/
-file/
-config/
 token
+config
+danmu
+*/target
+*/src/test
