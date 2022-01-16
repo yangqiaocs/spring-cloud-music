@@ -1,0 +1,413 @@
+2022/01/17 00:12:44 [notice] 27517#0: signal 15 (SIGTERM) received from 27943, exiting
+2022/01/17 00:12:44 [notice] 27517#0: signal 15 (SIGTERM) received from 27943, exiting
+2022/01/17 00:12:44 [notice] 27518#0: exiting
+2022/01/17 00:12:44 [notice] 27518#0: exiting
+2022/01/17 00:12:44 [notice] 27517#0: signal 23 (SIGIO) received from 27518
+2022/01/17 00:12:44 [notice] 27517#0: signal 23 (SIGIO) received from 27518
+2022/01/17 00:12:44 [notice] 27518#0: exit
+2022/01/17 00:12:44 [notice] 27517#0: signal 20 (SIGCHLD) received from 27518
+2022/01/17 00:12:44 [notice] 27517#0: signal 20 (SIGCHLD) received from 27518
+2022/01/17 00:12:44 [notice] 27517#0: worker process 27518 exited with code 0
+2022/01/17 00:12:44 [notice] 27517#0: worker process 27518 exited with code 0
+2022/01/17 00:12:44 [notice] 27517#0: exit
+2022/01/17 00:12:44 [notice] 27517#0: exit
+2022/01/17 00:12:44 [notice] 27947#0: using the "kqueue" event method
+2022/01/17 00:12:44 [notice] 27947#0: using the "kqueue" event method
+2022/01/17 00:12:44 [notice] 27947#0: nginx/1.17.1
+2022/01/17 00:12:44 [notice] 27947#0: nginx/1.17.1
+2022/01/17 00:12:44 [notice] 27947#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:12:44 [notice] 27947#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:12:44 [notice] 27947#0: OS: Darwin 21.2.0
+2022/01/17 00:12:44 [notice] 27947#0: OS: Darwin 21.2.0
+2022/01/17 00:12:44 [notice] 27947#0: hw.ncpu: 8
+2022/01/17 00:12:44 [notice] 27947#0: hw.ncpu: 8
+2022/01/17 00:12:44 [notice] 27947#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:12:44 [notice] 27947#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:12:44 [notice] 27947#0: kern.ipc.somaxconn: 128
+2022/01/17 00:12:44 [notice] 27947#0: kern.ipc.somaxconn: 128
+2022/01/17 00:12:44 [notice] 27947#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:12:44 [notice] 27947#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:12:44 [notice] 27947#0: start worker processes
+2022/01/17 00:12:44 [notice] 27947#0: start worker processes
+2022/01/17 00:12:44 [notice] 27947#0: start worker process 27948
+2022/01/17 00:12:44 [notice] 27947#0: start worker process 27948
+2022/01/17 00:12:46 [notice] 27947#0: signal 15 (SIGTERM) received from 27952, exiting
+2022/01/17 00:12:46 [notice] 27947#0: signal 15 (SIGTERM) received from 27952, exiting
+2022/01/17 00:12:46 [notice] 27948#0: exiting
+2022/01/17 00:12:46 [notice] 27947#0: signal 23 (SIGIO) received from 27948
+2022/01/17 00:12:46 [notice] 27947#0: signal 23 (SIGIO) received from 27948
+2022/01/17 00:12:46 [notice] 27948#0: exiting
+2022/01/17 00:12:46 [notice] 27948#0: exit
+2022/01/17 00:12:46 [notice] 27947#0: signal 20 (SIGCHLD) received from 27948
+2022/01/17 00:12:46 [notice] 27947#0: signal 20 (SIGCHLD) received from 27948
+2022/01/17 00:12:46 [notice] 27947#0: worker process 27948 exited with code 0
+2022/01/17 00:12:46 [notice] 27947#0: worker process 27948 exited with code 0
+2022/01/17 00:12:46 [notice] 27947#0: exit
+2022/01/17 00:12:46 [notice] 27947#0: exit
+2022/01/17 00:12:47 [notice] 27956#0: using the "kqueue" event method
+2022/01/17 00:12:47 [notice] 27956#0: using the "kqueue" event method
+2022/01/17 00:12:47 [notice] 27956#0: nginx/1.17.1
+2022/01/17 00:12:47 [notice] 27956#0: nginx/1.17.1
+2022/01/17 00:12:47 [notice] 27956#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:12:47 [notice] 27956#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:12:47 [notice] 27956#0: OS: Darwin 21.2.0
+2022/01/17 00:12:47 [notice] 27956#0: OS: Darwin 21.2.0
+2022/01/17 00:12:47 [notice] 27956#0: hw.ncpu: 8
+2022/01/17 00:12:47 [notice] 27956#0: hw.ncpu: 8
+2022/01/17 00:12:47 [notice] 27956#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:12:47 [notice] 27956#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:12:47 [notice] 27956#0: kern.ipc.somaxconn: 128
+2022/01/17 00:12:47 [notice] 27956#0: kern.ipc.somaxconn: 128
+2022/01/17 00:12:47 [notice] 27956#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:12:47 [notice] 27956#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:12:47 [notice] 27956#0: start worker processes
+2022/01/17 00:12:47 [notice] 27956#0: start worker processes
+2022/01/17 00:12:47 [notice] 27956#0: start worker process 27957
+2022/01/17 00:12:47 [notice] 27956#0: start worker process 27957
+2022/01/17 00:12:56 [info] 27957#0: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:12:59 [info] 27957#0: *15 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:13:03 [error] 27957#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:13:03 [error] 27957#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:13:03 [error] 27957#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:13:55 [info] 27957#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:22:06 [notice] 27956#0: signal 15 (SIGTERM) received from 28220, exiting
+2022/01/17 00:22:06 [notice] 27956#0: signal 15 (SIGTERM) received from 28220, exiting
+2022/01/17 00:22:06 [notice] 27957#0: exiting
+2022/01/17 00:22:06 [notice] 27957#0: exiting
+2022/01/17 00:22:06 [notice] 27956#0: signal 23 (SIGIO) received from 27957
+2022/01/17 00:22:06 [notice] 27956#0: signal 23 (SIGIO) received from 27957
+2022/01/17 00:22:06 [notice] 27957#0: exit
+2022/01/17 00:22:06 [notice] 27956#0: signal 20 (SIGCHLD) received from 27957
+2022/01/17 00:22:06 [notice] 27956#0: signal 20 (SIGCHLD) received from 27957
+2022/01/17 00:22:06 [notice] 27956#0: worker process 27957 exited with code 0
+2022/01/17 00:22:06 [notice] 27956#0: worker process 27957 exited with code 0
+2022/01/17 00:22:06 [notice] 27956#0: exit
+2022/01/17 00:22:06 [notice] 27956#0: exit
+2022/01/17 00:22:06 [notice] 28224#0: using the "kqueue" event method
+2022/01/17 00:22:06 [notice] 28224#0: using the "kqueue" event method
+2022/01/17 00:22:06 [notice] 28224#0: nginx/1.17.1
+2022/01/17 00:22:06 [notice] 28224#0: nginx/1.17.1
+2022/01/17 00:22:06 [notice] 28224#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:22:06 [notice] 28224#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:22:06 [notice] 28224#0: OS: Darwin 21.2.0
+2022/01/17 00:22:06 [notice] 28224#0: OS: Darwin 21.2.0
+2022/01/17 00:22:06 [notice] 28224#0: hw.ncpu: 8
+2022/01/17 00:22:06 [notice] 28224#0: hw.ncpu: 8
+2022/01/17 00:22:06 [notice] 28224#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:22:06 [notice] 28224#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:22:06 [notice] 28224#0: kern.ipc.somaxconn: 128
+2022/01/17 00:22:06 [notice] 28224#0: kern.ipc.somaxconn: 128
+2022/01/17 00:22:06 [notice] 28224#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:22:06 [notice] 28224#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:22:06 [notice] 28224#0: start worker processes
+2022/01/17 00:22:06 [notice] 28224#0: start worker processes
+2022/01/17 00:22:06 [notice] 28224#0: start worker process 28225
+2022/01/17 00:22:06 [notice] 28224#0: start worker process 28225
+2022/01/17 00:22:12 [notice] 28224#0: signal 15 (SIGTERM) received from 28236, exiting
+2022/01/17 00:22:12 [notice] 28224#0: signal 15 (SIGTERM) received from 28236, exiting
+2022/01/17 00:22:12 [notice] 28225#0: exiting
+2022/01/17 00:22:12 [notice] 28225#0: exiting
+2022/01/17 00:22:12 [notice] 28224#0: signal 23 (SIGIO) received from 28225
+2022/01/17 00:22:12 [notice] 28224#0: signal 23 (SIGIO) received from 28225
+2022/01/17 00:22:12 [notice] 28225#0: exit
+2022/01/17 00:22:12 [notice] 28224#0: signal 20 (SIGCHLD) received from 28225
+2022/01/17 00:22:12 [notice] 28224#0: signal 20 (SIGCHLD) received from 28225
+2022/01/17 00:22:12 [notice] 28224#0: worker process 28225 exited with code 0
+2022/01/17 00:22:12 [notice] 28224#0: worker process 28225 exited with code 0
+2022/01/17 00:22:12 [notice] 28224#0: exit
+2022/01/17 00:22:12 [notice] 28224#0: exit
+2022/01/17 00:22:12 [notice] 28240#0: using the "kqueue" event method
+2022/01/17 00:22:12 [notice] 28240#0: using the "kqueue" event method
+2022/01/17 00:22:12 [notice] 28240#0: nginx/1.17.1
+2022/01/17 00:22:12 [notice] 28240#0: nginx/1.17.1
+2022/01/17 00:22:12 [notice] 28240#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:22:12 [notice] 28240#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:22:12 [notice] 28240#0: OS: Darwin 21.2.0
+2022/01/17 00:22:12 [notice] 28240#0: OS: Darwin 21.2.0
+2022/01/17 00:22:12 [notice] 28240#0: hw.ncpu: 8
+2022/01/17 00:22:12 [notice] 28240#0: hw.ncpu: 8
+2022/01/17 00:22:12 [notice] 28240#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:22:12 [notice] 28240#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:22:12 [notice] 28240#0: kern.ipc.somaxconn: 128
+2022/01/17 00:22:12 [notice] 28240#0: kern.ipc.somaxconn: 128
+2022/01/17 00:22:12 [notice] 28240#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:22:12 [notice] 28240#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:22:12 [notice] 28240#0: start worker processes
+2022/01/17 00:22:12 [notice] 28240#0: start worker processes
+2022/01/17 00:22:12 [notice] 28240#0: start worker process 28241
+2022/01/17 00:22:12 [notice] 28240#0: start worker process 28241
+2022/01/17 00:22:30 [info] 28241#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:22:31 [error] 28241#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:22:31 [error] 28241#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:22:31 [error] 28241#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:23:29 [info] 28241#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:23:30 [info] 28241#0: *12 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/01/17 00:24:26 [info] 28241#0: *21 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:24:29 [error] 28241#0: *34 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:24:29 [error] 28241#0: *34 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:24:29 [error] 28241#0: *34 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:25:25 [info] 28241#0: *23 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:26:11 [info] 28241#0: *38 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:26:13 [error] 28241#0: *50 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:26:13 [error] 28241#0: *50 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:26:13 [error] 28241#0: *50 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:26:46 [info] 28241#0: *45 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:26:50 [error] 28241#0: *67 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:26:50 [error] 28241#0: *67 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:26:50 [error] 28241#0: *67 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:27:10 [info] 28241#0: *40 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:28:29 [info] 28241#0: *63 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:28:31 [error] 28241#0: *84 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:28:31 [error] 28241#0: *84 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:28:31 [error] 28241#0: *84 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:29:28 [info] 28241#0: *73 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:31:10 [info] 28241#0: *95 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:31:13 [error] 28241#0: *104 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:31:13 [error] 28241#0: *104 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:31:13 [error] 28241#0: *104 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:32:08 [info] 28241#0: *91 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:39:43 [info] 28241#0: *108 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:39:46 [error] 28241#0: *124 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:39:46 [error] 28241#0: *124 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:39:46 [error] 28241#0: *124 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:40:13 [error] 28241#0: *118 open() "/usr/local/Cellar/nginx/1.17.1/html/0002cwhl4CFvgm-Leave" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0002cwhl4CFvgm-Leave HTTP/1.1", host: "localhost:8080"
+2022/01/17 00:40:13 [error] 28241#0: *118 open() "/usr/local/Cellar/nginx/1.17.1/html/0002cwhl4CFvgm-Leave" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0002cwhl4CFvgm-Leave HTTP/1.1", host: "localhost:8080"
+2022/01/17 00:40:13 [error] 28241#0: *118 open() "/usr/local/Cellar/nginx/1.17.1/html/0002cwhl4CFvgm-Leave" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0002cwhl4CFvgm-Leave HTTP/1.1", host: "localhost:8080"
+2022/01/17 00:40:42 [info] 28241#0: *111 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:43:07 [notice] 28240#0: signal 15 (SIGTERM) received from 28928, exiting
+2022/01/17 00:43:07 [notice] 28240#0: signal 15 (SIGTERM) received from 28928, exiting
+2022/01/17 00:43:07 [notice] 28241#0: exiting
+2022/01/17 00:43:07 [notice] 28241#0: exiting
+2022/01/17 00:43:07 [notice] 28240#0: signal 23 (SIGIO) received from 28241
+2022/01/17 00:43:07 [notice] 28240#0: signal 23 (SIGIO) received from 28241
+2022/01/17 00:43:07 [notice] 28241#0: exit
+2022/01/17 00:43:07 [notice] 28240#0: signal 20 (SIGCHLD) received from 28241
+2022/01/17 00:43:07 [notice] 28240#0: signal 20 (SIGCHLD) received from 28241
+2022/01/17 00:43:07 [notice] 28240#0: worker process 28241 exited with code 0
+2022/01/17 00:43:07 [notice] 28240#0: worker process 28241 exited with code 0
+2022/01/17 00:43:07 [notice] 28240#0: exit
+2022/01/17 00:43:07 [notice] 28240#0: exit
+2022/01/17 00:43:08 [notice] 28932#0: using the "kqueue" event method
+2022/01/17 00:43:08 [notice] 28932#0: using the "kqueue" event method
+2022/01/17 00:43:08 [notice] 28932#0: nginx/1.17.1
+2022/01/17 00:43:08 [notice] 28932#0: nginx/1.17.1
+2022/01/17 00:43:08 [notice] 28932#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:43:08 [notice] 28932#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:43:08 [notice] 28932#0: OS: Darwin 21.2.0
+2022/01/17 00:43:08 [notice] 28932#0: OS: Darwin 21.2.0
+2022/01/17 00:43:08 [notice] 28932#0: hw.ncpu: 8
+2022/01/17 00:43:08 [notice] 28932#0: hw.ncpu: 8
+2022/01/17 00:43:08 [notice] 28932#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:43:08 [notice] 28932#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:43:08 [notice] 28932#0: kern.ipc.somaxconn: 128
+2022/01/17 00:43:08 [notice] 28932#0: kern.ipc.somaxconn: 128
+2022/01/17 00:43:08 [notice] 28932#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:43:08 [notice] 28932#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:43:08 [notice] 28932#0: start worker processes
+2022/01/17 00:43:08 [notice] 28932#0: start worker processes
+2022/01/17 00:43:08 [notice] 28932#0: start worker process 28933
+2022/01/17 00:43:08 [notice] 28932#0: start worker process 28933
+2022/01/17 00:43:13 [info] 28933#0: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:43:17 [error] 28933#0: *16 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:43:17 [error] 28933#0: *16 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:43:17 [error] 28933#0: *16 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:44:12 [info] 28933#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:45:18 [notice] 28932#0: signal 15 (SIGTERM) received from 28992, exiting
+2022/01/17 00:45:18 [notice] 28932#0: signal 15 (SIGTERM) received from 28992, exiting
+2022/01/17 00:45:18 [notice] 28933#0: exiting
+2022/01/17 00:45:18 [notice] 28933#0: exiting
+2022/01/17 00:45:18 [notice] 28932#0: signal 23 (SIGIO) received from 28933
+2022/01/17 00:45:18 [notice] 28932#0: signal 23 (SIGIO) received from 28933
+2022/01/17 00:45:18 [notice] 28933#0: exit
+2022/01/17 00:45:18 [notice] 28932#0: signal 20 (SIGCHLD) received from 28933
+2022/01/17 00:45:18 [notice] 28932#0: signal 20 (SIGCHLD) received from 28933
+2022/01/17 00:45:18 [notice] 28932#0: worker process 28933 exited with code 0
+2022/01/17 00:45:18 [notice] 28932#0: worker process 28933 exited with code 0
+2022/01/17 00:45:18 [notice] 28932#0: exit
+2022/01/17 00:45:18 [notice] 28932#0: exit
+2022/01/17 00:45:18 [notice] 28996#0: using the "kqueue" event method
+2022/01/17 00:45:18 [notice] 28996#0: using the "kqueue" event method
+2022/01/17 00:45:18 [notice] 28996#0: nginx/1.17.1
+2022/01/17 00:45:18 [notice] 28996#0: nginx/1.17.1
+2022/01/17 00:45:18 [notice] 28996#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:18 [notice] 28996#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:18 [notice] 28996#0: OS: Darwin 21.2.0
+2022/01/17 00:45:18 [notice] 28996#0: OS: Darwin 21.2.0
+2022/01/17 00:45:18 [notice] 28996#0: hw.ncpu: 8
+2022/01/17 00:45:18 [notice] 28996#0: hw.ncpu: 8
+2022/01/17 00:45:18 [notice] 28996#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:18 [notice] 28996#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:18 [notice] 28996#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:18 [notice] 28996#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:18 [notice] 28996#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:18 [notice] 28996#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:18 [notice] 28996#0: start worker processes
+2022/01/17 00:45:18 [notice] 28996#0: start worker processes
+2022/01/17 00:45:18 [notice] 28996#0: start worker process 28997
+2022/01/17 00:45:18 [notice] 28996#0: start worker process 28997
+2022/01/17 00:45:30 [notice] 28996#0: signal 15 (SIGTERM) received from 29013, exiting
+2022/01/17 00:45:30 [notice] 28996#0: signal 15 (SIGTERM) received from 29013, exiting
+2022/01/17 00:45:30 [notice] 28997#0: exiting
+2022/01/17 00:45:30 [notice] 28997#0: exiting
+2022/01/17 00:45:30 [notice] 28996#0: signal 23 (SIGIO) received from 28997
+2022/01/17 00:45:30 [notice] 28996#0: signal 23 (SIGIO) received from 28997
+2022/01/17 00:45:30 [notice] 28997#0: exit
+2022/01/17 00:45:30 [notice] 28996#0: signal 20 (SIGCHLD) received from 28997
+2022/01/17 00:45:30 [notice] 28996#0: signal 20 (SIGCHLD) received from 28997
+2022/01/17 00:45:30 [notice] 28996#0: worker process 28997 exited with code 0
+2022/01/17 00:45:30 [notice] 28996#0: worker process 28997 exited with code 0
+2022/01/17 00:45:30 [notice] 28996#0: exit
+2022/01/17 00:45:30 [notice] 28996#0: exit
+2022/01/17 00:45:30 [notice] 29017#0: using the "kqueue" event method
+2022/01/17 00:45:30 [notice] 29017#0: using the "kqueue" event method
+2022/01/17 00:45:30 [notice] 29017#0: nginx/1.17.1
+2022/01/17 00:45:30 [notice] 29017#0: nginx/1.17.1
+2022/01/17 00:45:30 [notice] 29017#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:30 [notice] 29017#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:30 [notice] 29017#0: OS: Darwin 21.2.0
+2022/01/17 00:45:30 [notice] 29017#0: OS: Darwin 21.2.0
+2022/01/17 00:45:30 [notice] 29017#0: hw.ncpu: 8
+2022/01/17 00:45:30 [notice] 29017#0: hw.ncpu: 8
+2022/01/17 00:45:30 [notice] 29017#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:30 [notice] 29017#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:30 [notice] 29017#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:30 [notice] 29017#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:30 [notice] 29017#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:30 [notice] 29017#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:30 [notice] 29017#0: start worker processes
+2022/01/17 00:45:30 [notice] 29017#0: start worker processes
+2022/01/17 00:45:30 [notice] 29017#0: start worker process 29018
+2022/01/17 00:45:30 [notice] 29017#0: start worker process 29018
+2022/01/17 00:45:31 [notice] 29017#0: signal 15 (SIGTERM) received from 29021, exiting
+2022/01/17 00:45:31 [notice] 29017#0: signal 15 (SIGTERM) received from 29021, exiting
+2022/01/17 00:45:31 [notice] 29018#0: exiting
+2022/01/17 00:45:31 [notice] 29018#0: exiting
+2022/01/17 00:45:31 [notice] 29017#0: signal 23 (SIGIO) received from 29018
+2022/01/17 00:45:31 [notice] 29017#0: signal 23 (SIGIO) received from 29018
+2022/01/17 00:45:31 [notice] 29018#0: exit
+2022/01/17 00:45:31 [notice] 29017#0: signal 20 (SIGCHLD) received from 29018
+2022/01/17 00:45:31 [notice] 29017#0: signal 20 (SIGCHLD) received from 29018
+2022/01/17 00:45:31 [notice] 29017#0: worker process 29018 exited with code 0
+2022/01/17 00:45:31 [notice] 29017#0: worker process 29018 exited with code 0
+2022/01/17 00:45:31 [notice] 29017#0: exit
+2022/01/17 00:45:31 [notice] 29017#0: exit
+2022/01/17 00:45:31 [notice] 29025#0: using the "kqueue" event method
+2022/01/17 00:45:31 [notice] 29025#0: using the "kqueue" event method
+2022/01/17 00:45:31 [notice] 29025#0: nginx/1.17.1
+2022/01/17 00:45:31 [notice] 29025#0: nginx/1.17.1
+2022/01/17 00:45:31 [notice] 29025#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:31 [notice] 29025#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:45:31 [notice] 29025#0: OS: Darwin 21.2.0
+2022/01/17 00:45:31 [notice] 29025#0: OS: Darwin 21.2.0
+2022/01/17 00:45:31 [notice] 29025#0: hw.ncpu: 8
+2022/01/17 00:45:31 [notice] 29025#0: hw.ncpu: 8
+2022/01/17 00:45:31 [notice] 29025#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:31 [notice] 29025#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:45:31 [notice] 29025#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:31 [notice] 29025#0: kern.ipc.somaxconn: 128
+2022/01/17 00:45:31 [notice] 29025#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:31 [notice] 29025#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:45:31 [notice] 29025#0: start worker processes
+2022/01/17 00:45:31 [notice] 29025#0: start worker processes
+2022/01/17 00:45:31 [notice] 29025#0: start worker process 29026
+2022/01/17 00:45:31 [notice] 29025#0: start worker process 29026
+2022/01/17 00:45:35 [info] 29026#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:45:41 [info] 29026#0: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:45:46 [error] 29026#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:45:46 [error] 29026#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:45:46 [error] 29026#0: *17 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:02 [error] 29026#0: *19 open() "/usr/local/Cellar/nginx/1.17.1/html/4d852d9da33607e63ab0.hot-update.json" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /4d852d9da33607e63ab0.hot-update.json HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:02 [error] 29026#0: *19 open() "/usr/local/Cellar/nginx/1.17.1/html/4d852d9da33607e63ab0.hot-update.json" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /4d852d9da33607e63ab0.hot-update.json HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:02 [error] 29026#0: *19 open() "/usr/local/Cellar/nginx/1.17.1/html/4d852d9da33607e63ab0.hot-update.json" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /4d852d9da33607e63ab0.hot-update.json HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:03 [info] 29026#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:46:11 [error] 29026#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:11 [error] 29026#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:11 [error] 29026#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:46:34 [info] 29026#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:47:13 [info] 29026#0: *28 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:47:16 [info] 29026#0: *41 sendfile() failed (32: Broken pipe) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /0000bBdn2gV78I-%E5%85%A8%E6%98%AF%E7%88%B1/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:16 [error] 29026#0: *45 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:16 [error] 29026#0: *45 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:16 [error] 29026#0: *45 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:53 [info] 29026#0: *46 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:47:56 [info] 29026#0: *29 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/01/17 00:47:56 [error] 29026#0: *56 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:56 [error] 29026#0: *56 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:47:56 [error] 29026#0: *56 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:48:12 [info] 29026#0: *37 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/17 00:54:10 [notice] 29025#0: signal 15 (SIGTERM) received from 29282, exiting
+2022/01/17 00:54:10 [notice] 29025#0: signal 15 (SIGTERM) received from 29282, exiting
+2022/01/17 00:54:10 [notice] 29026#0: exiting
+2022/01/17 00:54:10 [notice] 29026#0: exiting
+2022/01/17 00:54:10 [notice] 29025#0: signal 23 (SIGIO) received from 29026
+2022/01/17 00:54:10 [notice] 29025#0: signal 23 (SIGIO) received from 29026
+2022/01/17 00:54:10 [notice] 29026#0: exit
+2022/01/17 00:54:10 [notice] 29025#0: signal 20 (SIGCHLD) received from 29026
+2022/01/17 00:54:10 [notice] 29025#0: signal 20 (SIGCHLD) received from 29026
+2022/01/17 00:54:10 [notice] 29025#0: worker process 29026 exited with code 0
+2022/01/17 00:54:10 [notice] 29025#0: worker process 29026 exited with code 0
+2022/01/17 00:54:10 [notice] 29025#0: exit
+2022/01/17 00:54:10 [notice] 29025#0: exit
+2022/01/17 00:54:11 [notice] 29286#0: using the "kqueue" event method
+2022/01/17 00:54:11 [notice] 29286#0: using the "kqueue" event method
+2022/01/17 00:54:11 [notice] 29286#0: nginx/1.17.1
+2022/01/17 00:54:11 [notice] 29286#0: nginx/1.17.1
+2022/01/17 00:54:11 [notice] 29286#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:54:11 [notice] 29286#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:54:11 [notice] 29286#0: OS: Darwin 21.2.0
+2022/01/17 00:54:11 [notice] 29286#0: OS: Darwin 21.2.0
+2022/01/17 00:54:11 [notice] 29286#0: hw.ncpu: 8
+2022/01/17 00:54:11 [notice] 29286#0: hw.ncpu: 8
+2022/01/17 00:54:11 [notice] 29286#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:54:11 [notice] 29286#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:54:11 [notice] 29286#0: kern.ipc.somaxconn: 128
+2022/01/17 00:54:11 [notice] 29286#0: kern.ipc.somaxconn: 128
+2022/01/17 00:54:11 [notice] 29286#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:54:11 [notice] 29286#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:54:11 [notice] 29286#0: start worker processes
+2022/01/17 00:54:11 [notice] 29286#0: start worker processes
+2022/01/17 00:54:11 [notice] 29286#0: start worker process 29287
+2022/01/17 00:54:11 [notice] 29286#0: start worker process 29287
+2022/01/17 00:54:12 [notice] 29286#0: signal 15 (SIGTERM) received from 29291, exiting
+2022/01/17 00:54:12 [notice] 29286#0: signal 15 (SIGTERM) received from 29291, exiting
+2022/01/17 00:54:12 [notice] 29287#0: exiting
+2022/01/17 00:54:12 [notice] 29287#0: exiting
+2022/01/17 00:54:12 [notice] 29286#0: signal 23 (SIGIO) received from 29287
+2022/01/17 00:54:12 [notice] 29286#0: signal 23 (SIGIO) received from 29287
+2022/01/17 00:54:12 [notice] 29287#0: exit
+2022/01/17 00:54:12 [notice] 29286#0: signal 20 (SIGCHLD) received from 29287
+2022/01/17 00:54:12 [notice] 29286#0: signal 20 (SIGCHLD) received from 29287
+2022/01/17 00:54:12 [notice] 29286#0: worker process 29287 exited with code 0
+2022/01/17 00:54:12 [notice] 29286#0: worker process 29287 exited with code 0
+2022/01/17 00:54:12 [notice] 29286#0: exit
+2022/01/17 00:54:12 [notice] 29286#0: exit
+2022/01/17 00:54:12 [notice] 29295#0: using the "kqueue" event method
+2022/01/17 00:54:12 [notice] 29295#0: using the "kqueue" event method
+2022/01/17 00:54:12 [notice] 29295#0: nginx/1.17.1
+2022/01/17 00:54:12 [notice] 29295#0: nginx/1.17.1
+2022/01/17 00:54:12 [notice] 29295#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:54:12 [notice] 29295#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/17 00:54:12 [notice] 29295#0: OS: Darwin 21.2.0
+2022/01/17 00:54:12 [notice] 29295#0: OS: Darwin 21.2.0
+2022/01/17 00:54:12 [notice] 29295#0: hw.ncpu: 8
+2022/01/17 00:54:12 [notice] 29295#0: hw.ncpu: 8
+2022/01/17 00:54:12 [notice] 29295#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:54:12 [notice] 29295#0: net.inet.tcp.sendspace: 131072
+2022/01/17 00:54:12 [notice] 29295#0: kern.ipc.somaxconn: 128
+2022/01/17 00:54:12 [notice] 29295#0: kern.ipc.somaxconn: 128
+2022/01/17 00:54:12 [notice] 29295#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:54:12 [notice] 29295#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/17 00:54:12 [notice] 29295#0: start worker processes
+2022/01/17 00:54:12 [notice] 29295#0: start worker processes
+2022/01/17 00:54:12 [notice] 29295#0: start worker process 29296
+2022/01/17 00:54:12 [notice] 29295#0: start worker process 29296
+2022/01/17 00:54:20 [info] 29296#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:54:22 [error] 29296#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:22 [error] 29296#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:22 [error] 29296#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:39 [info] 29296#0: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/17 00:54:47 [info] 29296#0: *25 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /0000bBdn2gV78I-%E5%85%A8%E6%98%AF%E7%88%B1/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:47 [error] 29296#0: *30 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:47 [error] 29296#0: *30 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:54:47 [error] 29296#0: *30 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/17 00:55:19 [info] 29296#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
