@@ -13,8 +13,8 @@ spring:
     elasticsearch:
       repositories:
         enabled: true
-      cluster-name: elasticsearch
-      cluster-nodes: ["localhost:9300"]
+  elasticsearch:
+    uris: localhost:9200
 
 mybatis-plus:
   configuration:

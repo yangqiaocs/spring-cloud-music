@@ -35,7 +35,7 @@ public class Song implements Serializable {
       private String SongID;
 
     @Field(type = FieldType.Keyword)
-    @TableField("SongName")
+    @TableField(value = "SongName")
     private String SongName;
 
     @TableField("Singer")
@@ -62,7 +62,7 @@ public class Song implements Serializable {
     @Field(type = FieldType.Text)
     private String SongCommentIDSet;
 
-    @TableField("UploadTime")
+    @TableField(value = "UploadTime",select = false)
     @Field(type = FieldType.Date,format = DateFormat.basic_date_time)
     private LocalDateTime UploadTime;
 }

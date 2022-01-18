@@ -4,7 +4,6 @@ package com.ysj.controller;
 import com.ysj.entity.User;
 import com.ysj.service.UserService;
 import com.ysj.util.JWTUtils;
-import org.hibernate.validator.constraints.CreditCardNumber;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.data.redis.core.RedisTemplate;
