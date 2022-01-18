@@ -2,16 +2,10 @@ package com.ysj;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class MyWebAppConfigurer implements WebMvcConfigurer {
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-
-        registry.addResourceHandler("/musics/**").addResourceLocations("file:/Users/qiao_yang/Downloads/music/songs/");
-    }
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
@@ -32,5 +26,7 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
                 //跨域允许时间
                 .maxAge(3600);
     }
+
+
 
 }
