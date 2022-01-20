@@ -1,9 +1,6 @@
-file: Users/qiao_yang/Desktop/stw/music
-
-
-
-
 spring:
+  main:
+    allow-bean-definition-overriding: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     name: selfmusic
@@ -12,6 +9,12 @@ spring:
     password: 977372ysj
   application:
     name: song
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    uris: localhost:9200
 
 mybatis-plus:
   configuration:

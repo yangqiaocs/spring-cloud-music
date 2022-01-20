@@ -34,6 +34,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<String> { //
     protected void channelRead0(ChannelHandlerContext ctx, String s) throws Exception { // (4)
         Channel incoming = ctx.channel();
         for (Channel channel : channels) {
+            System.out.println(channel == incoming);
             if (channel != incoming){
                 channel.writeAndFlush("[" + incoming.remoteAddress() + "]" + s + "\n");
             } else {

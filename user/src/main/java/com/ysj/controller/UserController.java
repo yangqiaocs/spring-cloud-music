@@ -1,10 +1,10 @@
 package com.ysj.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ysj.entity.User;
 import com.ysj.service.UserService;
 import com.ysj.util.JWTUtils;
-import org.hibernate.validator.constraints.CreditCardNumber;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -26,8 +26,8 @@ import java.util.Map;
  * @since 2021-11-28
  */
 @RestController
-@RequestMapping("//user")
-//@CrossOrigin(allowCredentials = "true")
+@RequestMapping("/user")
+//@CrossOrigin
 public class UserController {
 
     @Autowired
@@ -43,14 +43,13 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public Map<String,Object> login(@RequestParam String username,@RequestParam String password){
-        HashMap<String,Object> query = new HashMap<>();
-        query.put("user_nickname",username);
-        query.put("user_password",password);
-        List<User> res = userService.listByMap(query);
+    public Map<String,Object> login(@RequestBody User user){
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        List<User> res = userService.list(queryWrapper);
         if(res.size() > 0){
-            User user = res.get(0);
-            redisTemplate.opsForValue().setIfAbsent(username,user);
+            redisTemplate.opsForValue().setIfAbsent(user.getUserNickname(),user);
+            Map<String,Object> query = new HashMap<>();
+            query.put("user",res.get(0));
             query.put("token",JWTUtils.createJWT());
             return query;
         }

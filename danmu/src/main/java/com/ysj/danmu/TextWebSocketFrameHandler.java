@@ -19,6 +19,7 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<TextW
         Channel channel = ctx.channel();
         System.out.println(channel.remoteAddress()+" 发送的弹幕是："+msg.text());
         for (Channel channel1 : channels) {
+            System.out.println(channel1 == channel);
             if (channel1 != channel) {
                 channel1.writeAndFlush(new TextWebSocketFrame(msg.text()));
             }

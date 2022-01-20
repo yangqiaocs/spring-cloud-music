@@ -5,6 +5,7 @@ import com.ysj.entity.Song;
 import com.ysj.service.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.stereotype.Controller;
@@ -58,5 +59,13 @@ public class SongController {
         System.out.println("getsongs");
         return songService.list().subList(0,20) ;
     }
+
+    @PostMapping("/search")
+    public List<Song> searchSong(@RequestBody String keyword){
+//        elasticsearchTemplate.createIndex(Song.class);
+//        elasticsearchTemplate.putMapping(Song.class);
+        return songService.list().subList(0,20);
+    }
+
 }
 
