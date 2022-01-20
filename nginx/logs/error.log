@@ -503,3 +503,501 @@
 2022/01/17 20:06:29 [notice] 1404#0: worker process 1405 exited with code 0
 2022/01/17 20:06:29 [notice] 1404#0: exit
 2022/01/17 20:06:29 [notice] 1404#0: exit
+2022/01/20 21:56:04 [notice] 3699#0: using the "kqueue" event method
+2022/01/20 21:56:04 [notice] 3699#0: using the "kqueue" event method
+2022/01/20 21:56:04 [notice] 3699#0: nginx/1.17.1
+2022/01/20 21:56:04 [notice] 3699#0: nginx/1.17.1
+2022/01/20 21:56:04 [notice] 3699#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 21:56:04 [notice] 3699#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 21:56:04 [notice] 3699#0: OS: Darwin 21.2.0
+2022/01/20 21:56:04 [notice] 3699#0: OS: Darwin 21.2.0
+2022/01/20 21:56:04 [notice] 3699#0: hw.ncpu: 8
+2022/01/20 21:56:04 [notice] 3699#0: hw.ncpu: 8
+2022/01/20 21:56:04 [notice] 3699#0: net.inet.tcp.sendspace: 131072
+2022/01/20 21:56:04 [notice] 3699#0: net.inet.tcp.sendspace: 131072
+2022/01/20 21:56:04 [notice] 3699#0: kern.ipc.somaxconn: 128
+2022/01/20 21:56:04 [notice] 3699#0: kern.ipc.somaxconn: 128
+2022/01/20 21:56:04 [notice] 3699#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 21:56:04 [notice] 3699#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 21:56:04 [notice] 3699#0: start worker processes
+2022/01/20 21:56:04 [notice] 3699#0: start worker processes
+2022/01/20 21:56:04 [notice] 3699#0: start worker process 3700
+2022/01/20 21:56:04 [notice] 3699#0: start worker process 3700
+2022/01/20 21:57:09 [info] 3700#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 21:59:04 [info] 3700#0: *11 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:05:38 [info] 3700#0: *28 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:06:09 [info] 3700#0: *35 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:09 [info] 3700#0: *36 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:09 [info] 3700#0: *38 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:09 [info] 3700#0: *37 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:09 [info] 3700#0: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:09 [info] 3700#0: *40 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:21 [info] 3700#0: *45 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:06:57 [info] 3700#0: *32 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:07:19 [info] 3700#0: *51 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:10:01 [info] 3700#0: *55 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:13:00 [info] 3700#0: *62 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:15:50 [info] 3700#0: *66 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:15:50 [info] 3700#0: *69 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:15:50 [info] 3700#0: *70 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:15:50 [info] 3700#0: *71 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:15:50 [info] 3700#0: *72 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:15:50 [info] 3700#0: *73 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:15:50 [info] 3700#0: *74 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:17:01 [info] 3700#0: *82 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:17:10 [info] 3700#0: *78 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:18:11 [info] 3700#0: *85 client timed out (60: Operation timed out) while waiting for request, client: ::1, server: [::]:80
+2022/01/20 22:19:46 [info] 3700#0: *94 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:23:34 [info] 3700#0: *100 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:23:48 [info] 3700#0: *103 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:23:48 [info] 3700#0: *104 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:23:48 [info] 3700#0: *105 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:23:48 [info] 3700#0: *106 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:23:48 [info] 3700#0: *107 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:23:48 [info] 3700#0: *108 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *111 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *112 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *113 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *114 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *115 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:24:02 [info] 3700#0: *116 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:38 [notice] 3699#0: signal 15 (SIGTERM) received from 4553, exiting
+2022/01/20 22:25:38 [notice] 3699#0: signal 15 (SIGTERM) received from 4553, exiting
+2022/01/20 22:25:38 [notice] 3700#0: exiting
+2022/01/20 22:25:38 [notice] 3700#0: exiting
+2022/01/20 22:25:38 [notice] 3699#0: signal 23 (SIGIO) received from 3700
+2022/01/20 22:25:38 [notice] 3699#0: signal 23 (SIGIO) received from 3700
+2022/01/20 22:25:38 [notice] 3700#0: exit
+2022/01/20 22:25:38 [notice] 3699#0: signal 20 (SIGCHLD) received from 3700
+2022/01/20 22:25:38 [notice] 3699#0: signal 20 (SIGCHLD) received from 3700
+2022/01/20 22:25:38 [notice] 3699#0: worker process 3700 exited with code 0
+2022/01/20 22:25:38 [notice] 3699#0: worker process 3700 exited with code 0
+2022/01/20 22:25:38 [notice] 3699#0: exit
+2022/01/20 22:25:38 [notice] 3699#0: exit
+2022/01/20 22:25:38 [notice] 4557#0: using the "kqueue" event method
+2022/01/20 22:25:38 [notice] 4557#0: using the "kqueue" event method
+2022/01/20 22:25:38 [notice] 4557#0: nginx/1.17.1
+2022/01/20 22:25:38 [notice] 4557#0: nginx/1.17.1
+2022/01/20 22:25:38 [notice] 4557#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:25:38 [notice] 4557#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:25:38 [notice] 4557#0: OS: Darwin 21.2.0
+2022/01/20 22:25:38 [notice] 4557#0: OS: Darwin 21.2.0
+2022/01/20 22:25:38 [notice] 4557#0: hw.ncpu: 8
+2022/01/20 22:25:38 [notice] 4557#0: hw.ncpu: 8
+2022/01/20 22:25:38 [notice] 4557#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:25:38 [notice] 4557#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:25:38 [notice] 4557#0: kern.ipc.somaxconn: 128
+2022/01/20 22:25:38 [notice] 4557#0: kern.ipc.somaxconn: 128
+2022/01/20 22:25:38 [notice] 4557#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:25:38 [notice] 4557#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:25:38 [notice] 4557#0: start worker processes
+2022/01/20 22:25:38 [notice] 4557#0: start worker processes
+2022/01/20 22:25:38 [notice] 4557#0: start worker process 4558
+2022/01/20 22:25:38 [notice] 4557#0: start worker process 4558
+2022/01/20 22:25:44 [info] 4558#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:44 [info] 4558#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:44 [info] 4558#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:44 [info] 4558#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:44 [info] 4558#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:25:44 [info] 4558#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:15 [notice] 4557#0: signal 15 (SIGTERM) received from 4575, exiting
+2022/01/20 22:26:15 [notice] 4557#0: signal 15 (SIGTERM) received from 4575, exiting
+2022/01/20 22:26:15 [notice] 4558#0: exiting
+2022/01/20 22:26:15 [notice] 4558#0: exiting
+2022/01/20 22:26:15 [notice] 4557#0: signal 23 (SIGIO) received from 4558
+2022/01/20 22:26:15 [notice] 4557#0: signal 23 (SIGIO) received from 4558
+2022/01/20 22:26:15 [notice] 4558#0: exit
+2022/01/20 22:26:15 [notice] 4557#0: signal 20 (SIGCHLD) received from 4558
+2022/01/20 22:26:15 [notice] 4557#0: signal 20 (SIGCHLD) received from 4558
+2022/01/20 22:26:15 [notice] 4557#0: worker process 4558 exited with code 0
+2022/01/20 22:26:15 [notice] 4557#0: worker process 4558 exited with code 0
+2022/01/20 22:26:15 [notice] 4557#0: exit
+2022/01/20 22:26:15 [notice] 4557#0: exit
+2022/01/20 22:26:15 [notice] 4579#0: using the "kqueue" event method
+2022/01/20 22:26:15 [notice] 4579#0: using the "kqueue" event method
+2022/01/20 22:26:15 [notice] 4579#0: nginx/1.17.1
+2022/01/20 22:26:15 [notice] 4579#0: nginx/1.17.1
+2022/01/20 22:26:15 [notice] 4579#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:26:15 [notice] 4579#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:26:15 [notice] 4579#0: OS: Darwin 21.2.0
+2022/01/20 22:26:15 [notice] 4579#0: OS: Darwin 21.2.0
+2022/01/20 22:26:15 [notice] 4579#0: hw.ncpu: 8
+2022/01/20 22:26:15 [notice] 4579#0: hw.ncpu: 8
+2022/01/20 22:26:15 [notice] 4579#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:26:15 [notice] 4579#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:26:15 [notice] 4579#0: kern.ipc.somaxconn: 128
+2022/01/20 22:26:15 [notice] 4579#0: kern.ipc.somaxconn: 128
+2022/01/20 22:26:15 [notice] 4579#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:26:15 [notice] 4579#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:26:15 [notice] 4579#0: start worker processes
+2022/01/20 22:26:15 [notice] 4579#0: start worker processes
+2022/01/20 22:26:15 [notice] 4579#0: start worker process 4580
+2022/01/20 22:26:15 [notice] 4579#0: start worker process 4580
+2022/01/20 22:26:25 [info] 4580#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:25 [info] 4580#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:25 [info] 4580#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:25 [info] 4580#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:25 [info] 4580#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:25 [info] 4580#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:31 [info] 4580#0: *9 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:26:33 [info] 4580#0: *10 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:03 [notice] 4579#0: signal 15 (SIGTERM) received from 4591, exiting
+2022/01/20 22:27:03 [notice] 4579#0: signal 15 (SIGTERM) received from 4591, exiting
+2022/01/20 22:27:03 [notice] 4580#0: exiting
+2022/01/20 22:27:03 [notice] 4580#0: exiting
+2022/01/20 22:27:03 [notice] 4579#0: signal 23 (SIGIO) received from 4580
+2022/01/20 22:27:03 [notice] 4579#0: signal 23 (SIGIO) received from 4580
+2022/01/20 22:27:03 [notice] 4580#0: exit
+2022/01/20 22:27:03 [notice] 4579#0: signal 20 (SIGCHLD) received from 4580
+2022/01/20 22:27:03 [notice] 4579#0: signal 20 (SIGCHLD) received from 4580
+2022/01/20 22:27:03 [notice] 4579#0: worker process 4580 exited with code 0
+2022/01/20 22:27:03 [notice] 4579#0: worker process 4580 exited with code 0
+2022/01/20 22:27:03 [notice] 4579#0: exit
+2022/01/20 22:27:03 [notice] 4579#0: exit
+2022/01/20 22:27:03 [notice] 4595#0: using the "kqueue" event method
+2022/01/20 22:27:03 [notice] 4595#0: using the "kqueue" event method
+2022/01/20 22:27:03 [notice] 4595#0: nginx/1.17.1
+2022/01/20 22:27:03 [notice] 4595#0: nginx/1.17.1
+2022/01/20 22:27:03 [notice] 4595#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:03 [notice] 4595#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:03 [notice] 4595#0: OS: Darwin 21.2.0
+2022/01/20 22:27:03 [notice] 4595#0: OS: Darwin 21.2.0
+2022/01/20 22:27:03 [notice] 4595#0: hw.ncpu: 8
+2022/01/20 22:27:03 [notice] 4595#0: hw.ncpu: 8
+2022/01/20 22:27:03 [notice] 4595#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:03 [notice] 4595#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:03 [notice] 4595#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:03 [notice] 4595#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:03 [notice] 4595#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:03 [notice] 4595#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:03 [notice] 4595#0: start worker processes
+2022/01/20 22:27:03 [notice] 4595#0: start worker processes
+2022/01/20 22:27:03 [notice] 4595#0: start worker process 4596
+2022/01/20 22:27:03 [notice] 4595#0: start worker process 4596
+2022/01/20 22:27:07 [info] 4596#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:07 [info] 4596#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:37 [notice] 4595#0: signal 15 (SIGTERM) received from 4600, exiting
+2022/01/20 22:27:37 [notice] 4595#0: signal 15 (SIGTERM) received from 4600, exiting
+2022/01/20 22:27:37 [notice] 4596#0: exiting
+2022/01/20 22:27:37 [notice] 4596#0: exiting
+2022/01/20 22:27:37 [notice] 4595#0: signal 23 (SIGIO) received from 4596
+2022/01/20 22:27:37 [notice] 4595#0: signal 23 (SIGIO) received from 4596
+2022/01/20 22:27:37 [notice] 4596#0: exit
+2022/01/20 22:27:37 [notice] 4595#0: signal 20 (SIGCHLD) received from 4596
+2022/01/20 22:27:37 [notice] 4595#0: signal 20 (SIGCHLD) received from 4596
+2022/01/20 22:27:37 [notice] 4595#0: worker process 4596 exited with code 0
+2022/01/20 22:27:37 [notice] 4595#0: worker process 4596 exited with code 0
+2022/01/20 22:27:37 [notice] 4595#0: exit
+2022/01/20 22:27:37 [notice] 4595#0: exit
+2022/01/20 22:27:37 [notice] 4604#0: using the "kqueue" event method
+2022/01/20 22:27:37 [notice] 4604#0: using the "kqueue" event method
+2022/01/20 22:27:37 [notice] 4604#0: nginx/1.17.1
+2022/01/20 22:27:37 [notice] 4604#0: nginx/1.17.1
+2022/01/20 22:27:37 [notice] 4604#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:37 [notice] 4604#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:37 [notice] 4604#0: OS: Darwin 21.2.0
+2022/01/20 22:27:37 [notice] 4604#0: OS: Darwin 21.2.0
+2022/01/20 22:27:37 [notice] 4604#0: hw.ncpu: 8
+2022/01/20 22:27:37 [notice] 4604#0: hw.ncpu: 8
+2022/01/20 22:27:37 [notice] 4604#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:37 [notice] 4604#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:37 [notice] 4604#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:37 [notice] 4604#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:37 [notice] 4604#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:37 [notice] 4604#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:37 [notice] 4604#0: start worker processes
+2022/01/20 22:27:37 [notice] 4604#0: start worker processes
+2022/01/20 22:27:37 [notice] 4604#0: start worker process 4605
+2022/01/20 22:27:37 [notice] 4604#0: start worker process 4605
+2022/01/20 22:27:39 [notice] 4604#0: signal 15 (SIGTERM) received from 4607, exiting
+2022/01/20 22:27:39 [notice] 4604#0: signal 15 (SIGTERM) received from 4607, exiting
+2022/01/20 22:27:39 [notice] 4605#0: exiting
+2022/01/20 22:27:39 [notice] 4605#0: exiting
+2022/01/20 22:27:39 [notice] 4604#0: signal 23 (SIGIO) received from 4605
+2022/01/20 22:27:39 [notice] 4604#0: signal 23 (SIGIO) received from 4605
+2022/01/20 22:27:39 [notice] 4605#0: exit
+2022/01/20 22:27:39 [notice] 4604#0: signal 20 (SIGCHLD) received from 4605
+2022/01/20 22:27:39 [notice] 4604#0: signal 20 (SIGCHLD) received from 4605
+2022/01/20 22:27:39 [notice] 4604#0: worker process 4605 exited with code 0
+2022/01/20 22:27:39 [notice] 4604#0: worker process 4605 exited with code 0
+2022/01/20 22:27:39 [notice] 4604#0: exit
+2022/01/20 22:27:39 [notice] 4604#0: exit
+2022/01/20 22:27:39 [notice] 4611#0: using the "kqueue" event method
+2022/01/20 22:27:39 [notice] 4611#0: using the "kqueue" event method
+2022/01/20 22:27:39 [notice] 4611#0: nginx/1.17.1
+2022/01/20 22:27:39 [notice] 4611#0: nginx/1.17.1
+2022/01/20 22:27:39 [notice] 4611#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:39 [notice] 4611#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:27:39 [notice] 4611#0: OS: Darwin 21.2.0
+2022/01/20 22:27:39 [notice] 4611#0: OS: Darwin 21.2.0
+2022/01/20 22:27:39 [notice] 4611#0: hw.ncpu: 8
+2022/01/20 22:27:39 [notice] 4611#0: hw.ncpu: 8
+2022/01/20 22:27:39 [notice] 4611#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:39 [notice] 4611#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:27:39 [notice] 4611#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:39 [notice] 4611#0: kern.ipc.somaxconn: 128
+2022/01/20 22:27:39 [notice] 4611#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:39 [notice] 4611#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:27:39 [notice] 4611#0: start worker processes
+2022/01/20 22:27:39 [notice] 4611#0: start worker processes
+2022/01/20 22:27:39 [notice] 4611#0: start worker process 4612
+2022/01/20 22:27:39 [notice] 4611#0: start worker process 4612
+2022/01/20 22:27:42 [info] 4612#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:42 [info] 4612#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:42 [info] 4612#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:42 [info] 4612#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:42 [info] 4612#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:27:42 [info] 4612#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:04 [notice] 4611#0: signal 15 (SIGTERM) received from 4623, exiting
+2022/01/20 22:28:04 [notice] 4611#0: signal 15 (SIGTERM) received from 4623, exiting
+2022/01/20 22:28:04 [notice] 4612#0: exiting
+2022/01/20 22:28:04 [notice] 4612#0: exiting
+2022/01/20 22:28:04 [notice] 4611#0: signal 23 (SIGIO) received from 4612
+2022/01/20 22:28:04 [notice] 4611#0: signal 23 (SIGIO) received from 4612
+2022/01/20 22:28:04 [notice] 4612#0: exit
+2022/01/20 22:28:04 [notice] 4611#0: signal 20 (SIGCHLD) received from 4612
+2022/01/20 22:28:04 [notice] 4611#0: signal 20 (SIGCHLD) received from 4612
+2022/01/20 22:28:04 [notice] 4611#0: worker process 4612 exited with code 0
+2022/01/20 22:28:04 [notice] 4611#0: worker process 4612 exited with code 0
+2022/01/20 22:28:04 [notice] 4611#0: exit
+2022/01/20 22:28:04 [notice] 4611#0: exit
+2022/01/20 22:28:04 [notice] 4627#0: using the "kqueue" event method
+2022/01/20 22:28:04 [notice] 4627#0: using the "kqueue" event method
+2022/01/20 22:28:04 [notice] 4627#0: nginx/1.17.1
+2022/01/20 22:28:04 [notice] 4627#0: nginx/1.17.1
+2022/01/20 22:28:04 [notice] 4627#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:28:04 [notice] 4627#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:28:04 [notice] 4627#0: OS: Darwin 21.2.0
+2022/01/20 22:28:04 [notice] 4627#0: OS: Darwin 21.2.0
+2022/01/20 22:28:04 [notice] 4627#0: hw.ncpu: 8
+2022/01/20 22:28:04 [notice] 4627#0: hw.ncpu: 8
+2022/01/20 22:28:04 [notice] 4627#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:28:04 [notice] 4627#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:28:04 [notice] 4627#0: kern.ipc.somaxconn: 128
+2022/01/20 22:28:04 [notice] 4627#0: kern.ipc.somaxconn: 128
+2022/01/20 22:28:04 [notice] 4627#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:28:04 [notice] 4627#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:28:04 [notice] 4627#0: start worker processes
+2022/01/20 22:28:04 [notice] 4627#0: start worker processes
+2022/01/20 22:28:04 [notice] 4627#0: start worker process 4628
+2022/01/20 22:28:04 [notice] 4627#0: start worker process 4628
+2022/01/20 22:28:07 [info] 4628#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:07 [info] 4628#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:07 [info] 4628#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:07 [info] 4628#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:07 [info] 4628#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:07 [info] 4628#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:28:45 [notice] 4627#0: signal 15 (SIGTERM) received from 4636, exiting
+2022/01/20 22:28:45 [notice] 4627#0: signal 15 (SIGTERM) received from 4636, exiting
+2022/01/20 22:28:45 [notice] 4628#0: exiting
+2022/01/20 22:28:45 [notice] 4628#0: exiting
+2022/01/20 22:28:45 [notice] 4627#0: signal 23 (SIGIO) received from 4628
+2022/01/20 22:28:45 [notice] 4627#0: signal 23 (SIGIO) received from 4628
+2022/01/20 22:28:45 [notice] 4628#0: exit
+2022/01/20 22:28:45 [notice] 4627#0: signal 20 (SIGCHLD) received from 4628
+2022/01/20 22:28:45 [notice] 4627#0: signal 20 (SIGCHLD) received from 4628
+2022/01/20 22:28:45 [notice] 4627#0: worker process 4628 exited with code 0
+2022/01/20 22:28:45 [notice] 4627#0: worker process 4628 exited with code 0
+2022/01/20 22:28:45 [notice] 4627#0: exit
+2022/01/20 22:28:45 [notice] 4627#0: exit
+2022/01/20 22:28:45 [notice] 4640#0: using the "kqueue" event method
+2022/01/20 22:28:45 [notice] 4640#0: using the "kqueue" event method
+2022/01/20 22:28:45 [notice] 4640#0: nginx/1.17.1
+2022/01/20 22:28:45 [notice] 4640#0: nginx/1.17.1
+2022/01/20 22:28:45 [notice] 4640#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:28:45 [notice] 4640#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:28:45 [notice] 4640#0: OS: Darwin 21.2.0
+2022/01/20 22:28:45 [notice] 4640#0: OS: Darwin 21.2.0
+2022/01/20 22:28:45 [notice] 4640#0: hw.ncpu: 8
+2022/01/20 22:28:45 [notice] 4640#0: hw.ncpu: 8
+2022/01/20 22:28:45 [notice] 4640#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:28:45 [notice] 4640#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:28:45 [notice] 4640#0: kern.ipc.somaxconn: 128
+2022/01/20 22:28:45 [notice] 4640#0: kern.ipc.somaxconn: 128
+2022/01/20 22:28:45 [notice] 4640#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:28:45 [notice] 4640#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:28:45 [notice] 4640#0: start worker processes
+2022/01/20 22:28:45 [notice] 4640#0: start worker processes
+2022/01/20 22:28:45 [notice] 4640#0: start worker process 4641
+2022/01/20 22:28:45 [notice] 4640#0: start worker process 4641
+2022/01/20 22:28:56 [error] 4641#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:28:56 [error] 4641#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:28:56 [error] 4641#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:29:50 [info] 4641#0: *6 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/01/20 22:34:03 [info] 4641#0: *16 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:34:05 [info] 4641#0: *15 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:34:07 [error] 4641#0: *29 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:34:07 [error] 4641#0: *29 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:34:07 [error] 4641#0: *29 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:35:42 [info] 4641#0: *41 sendfile() failed (32: Broken pipe) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /0000bBdn2gV78I-%E5%85%A8%E6%98%AF%E7%88%B1/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:35:42 [error] 4641#0: *43 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:35:42 [error] 4641#0: *43 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:35:42 [error] 4641#0: *43 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:36:30 [info] 4641#0: *46 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /0000bBdn2gV78I-%E5%85%A8%E6%98%AF%E7%88%B1/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:36:30 [error] 4641#0: *48 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:36:30 [error] 4641#0: *48 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:36:30 [error] 4641#0: *48 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:38:53 [info] 4641#0: *57 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/01/20 22:38:53 [error] 4641#0: *58 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:38:53 [error] 4641#0: *58 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:38:53 [error] 4641#0: *58 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:41:03 [error] 4641#0: *71 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:41:03 [error] 4641#0: *71 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:41:03 [error] 4641#0: *71 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:45:06 [error] 4641#0: *91 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:45:06 [error] 4641#0: *91 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:45:06 [error] 4641#0: *91 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:46:39 [info] 4641#0: *81 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:46:54 [error] 4641#0: *101 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:46:54 [error] 4641#0: *101 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:46:54 [error] 4641#0: *101 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 22:51:51 [info] 4641#0: *118 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/01/20 22:52:06 [info] 4641#0: *131 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:06 [info] 4641#0: *132 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:06 [info] 4641#0: *133 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:06 [info] 4641#0: *134 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:06 [info] 4641#0: *135 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:06 [info] 4641#0: *136 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:43 [notice] 4640#0: signal 15 (SIGTERM) received from 5342, exiting
+2022/01/20 22:52:43 [notice] 4640#0: signal 15 (SIGTERM) received from 5342, exiting
+2022/01/20 22:52:43 [notice] 4641#0: exiting
+2022/01/20 22:52:43 [notice] 4641#0: exiting
+2022/01/20 22:52:43 [notice] 4640#0: signal 23 (SIGIO) received from 4641
+2022/01/20 22:52:43 [notice] 4640#0: signal 23 (SIGIO) received from 4641
+2022/01/20 22:52:43 [notice] 4641#0: exit
+2022/01/20 22:52:43 [notice] 4640#0: signal 20 (SIGCHLD) received from 4641
+2022/01/20 22:52:43 [notice] 4640#0: signal 20 (SIGCHLD) received from 4641
+2022/01/20 22:52:43 [notice] 4640#0: worker process 4641 exited with code 0
+2022/01/20 22:52:43 [notice] 4640#0: worker process 4641 exited with code 0
+2022/01/20 22:52:43 [notice] 4640#0: exit
+2022/01/20 22:52:43 [notice] 4640#0: exit
+2022/01/20 22:52:43 [notice] 5346#0: using the "kqueue" event method
+2022/01/20 22:52:43 [notice] 5346#0: using the "kqueue" event method
+2022/01/20 22:52:43 [notice] 5346#0: nginx/1.17.1
+2022/01/20 22:52:43 [notice] 5346#0: nginx/1.17.1
+2022/01/20 22:52:43 [notice] 5346#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:52:43 [notice] 5346#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:52:43 [notice] 5346#0: OS: Darwin 21.2.0
+2022/01/20 22:52:43 [notice] 5346#0: OS: Darwin 21.2.0
+2022/01/20 22:52:43 [notice] 5346#0: hw.ncpu: 8
+2022/01/20 22:52:43 [notice] 5346#0: hw.ncpu: 8
+2022/01/20 22:52:43 [notice] 5346#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:52:43 [notice] 5346#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:52:43 [notice] 5346#0: kern.ipc.somaxconn: 128
+2022/01/20 22:52:43 [notice] 5346#0: kern.ipc.somaxconn: 128
+2022/01/20 22:52:43 [notice] 5346#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:52:43 [notice] 5346#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:52:43 [notice] 5346#0: start worker processes
+2022/01/20 22:52:43 [notice] 5346#0: start worker processes
+2022/01/20 22:52:43 [notice] 5346#0: start worker process 5347
+2022/01/20 22:52:43 [notice] 5346#0: start worker process 5347
+2022/01/20 22:52:51 [info] 5347#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:55 [info] 5347#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:52:59 [info] 5347#0: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:54:01 [notice] 5346#0: signal 15 (SIGTERM) received from 5381, exiting
+2022/01/20 22:54:01 [notice] 5346#0: signal 15 (SIGTERM) received from 5381, exiting
+2022/01/20 22:54:01 [notice] 5347#0: exiting
+2022/01/20 22:54:01 [notice] 5347#0: exiting
+2022/01/20 22:54:01 [notice] 5346#0: signal 23 (SIGIO) received from 5347
+2022/01/20 22:54:01 [notice] 5346#0: signal 23 (SIGIO) received from 5347
+2022/01/20 22:54:01 [notice] 5347#0: exit
+2022/01/20 22:54:01 [notice] 5346#0: signal 20 (SIGCHLD) received from 5347
+2022/01/20 22:54:01 [notice] 5346#0: signal 20 (SIGCHLD) received from 5347
+2022/01/20 22:54:01 [notice] 5346#0: worker process 5347 exited with code 0
+2022/01/20 22:54:01 [notice] 5346#0: worker process 5347 exited with code 0
+2022/01/20 22:54:01 [notice] 5346#0: exit
+2022/01/20 22:54:01 [notice] 5346#0: exit
+2022/01/20 22:54:01 [notice] 5385#0: using the "kqueue" event method
+2022/01/20 22:54:01 [notice] 5385#0: using the "kqueue" event method
+2022/01/20 22:54:01 [notice] 5385#0: nginx/1.17.1
+2022/01/20 22:54:01 [notice] 5385#0: nginx/1.17.1
+2022/01/20 22:54:01 [notice] 5385#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:54:01 [notice] 5385#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:54:01 [notice] 5385#0: OS: Darwin 21.2.0
+2022/01/20 22:54:01 [notice] 5385#0: OS: Darwin 21.2.0
+2022/01/20 22:54:01 [notice] 5385#0: hw.ncpu: 8
+2022/01/20 22:54:01 [notice] 5385#0: hw.ncpu: 8
+2022/01/20 22:54:01 [notice] 5385#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:54:01 [notice] 5385#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:54:01 [notice] 5385#0: kern.ipc.somaxconn: 128
+2022/01/20 22:54:01 [notice] 5385#0: kern.ipc.somaxconn: 128
+2022/01/20 22:54:01 [notice] 5385#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:54:01 [notice] 5385#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:54:01 [notice] 5385#0: start worker processes
+2022/01/20 22:54:01 [notice] 5385#0: start worker processes
+2022/01/20 22:54:01 [notice] 5385#0: start worker process 5386
+2022/01/20 22:54:01 [notice] 5385#0: start worker process 5386
+2022/01/20 22:54:05 [info] 5386#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:54:26 [notice] 5385#0: signal 15 (SIGTERM) received from 5402, exiting
+2022/01/20 22:54:26 [notice] 5385#0: signal 15 (SIGTERM) received from 5402, exiting
+2022/01/20 22:54:26 [notice] 5386#0: exiting
+2022/01/20 22:54:26 [notice] 5386#0: exiting
+2022/01/20 22:54:26 [notice] 5385#0: signal 23 (SIGIO) received from 5386
+2022/01/20 22:54:26 [notice] 5385#0: signal 23 (SIGIO) received from 5386
+2022/01/20 22:54:26 [notice] 5386#0: exit
+2022/01/20 22:54:26 [notice] 5385#0: signal 20 (SIGCHLD) received from 5386
+2022/01/20 22:54:26 [notice] 5385#0: signal 20 (SIGCHLD) received from 5386
+2022/01/20 22:54:26 [notice] 5385#0: worker process 5386 exited with code 0
+2022/01/20 22:54:26 [notice] 5385#0: worker process 5386 exited with code 0
+2022/01/20 22:54:26 [notice] 5385#0: exit
+2022/01/20 22:54:26 [notice] 5385#0: exit
+2022/01/20 22:54:26 [notice] 5406#0: using the "kqueue" event method
+2022/01/20 22:54:26 [notice] 5406#0: using the "kqueue" event method
+2022/01/20 22:54:26 [notice] 5406#0: nginx/1.17.1
+2022/01/20 22:54:26 [notice] 5406#0: nginx/1.17.1
+2022/01/20 22:54:26 [notice] 5406#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:54:26 [notice] 5406#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/01/20 22:54:26 [notice] 5406#0: OS: Darwin 21.2.0
+2022/01/20 22:54:26 [notice] 5406#0: OS: Darwin 21.2.0
+2022/01/20 22:54:26 [notice] 5406#0: hw.ncpu: 8
+2022/01/20 22:54:26 [notice] 5406#0: hw.ncpu: 8
+2022/01/20 22:54:26 [notice] 5406#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:54:26 [notice] 5406#0: net.inet.tcp.sendspace: 131072
+2022/01/20 22:54:26 [notice] 5406#0: kern.ipc.somaxconn: 128
+2022/01/20 22:54:26 [notice] 5406#0: kern.ipc.somaxconn: 128
+2022/01/20 22:54:26 [notice] 5406#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:54:26 [notice] 5406#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/01/20 22:54:26 [notice] 5406#0: start worker processes
+2022/01/20 22:54:26 [notice] 5406#0: start worker processes
+2022/01/20 22:54:26 [notice] 5406#0: start worker process 5407
+2022/01/20 22:54:26 [notice] 5406#0: start worker process 5407
+2022/01/20 22:54:37 [error] 5407#0: *6 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 22:54:37 [error] 5407#0: *6 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 22:54:37 [error] 5407#0: *6 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 22:55:36 [info] 5407#0: *12 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:55:36 [info] 5407#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:55:40 [info] 5407#0: *22 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:55:42 [info] 5407#0: *23 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:56:02 [info] 5407#0: *28 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:56:05 [info] 5407#0: *30 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:56:36 [info] 5407#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:56:48 [info] 5407#0: *25 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/01/20 22:59:05 [info] 5407#0: *56 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:59:07 [info] 5407#0: *57 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:59:09 [info] 5407#0: *52 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 22:59:42 [error] 5407#0: *60 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 22:59:42 [error] 5407#0: *60 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 22:59:42 [error] 5407#0: *60 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/01/20 23:00:42 [info] 5407#0: *42 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:01:18 [info] 5407#0: *76 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:01:58 [info] 5407#0: *84 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:02:58 [info] 5407#0: *63 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:03:51 [info] 5407#0: *92 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:05:09 [info] 5407#0: *96 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:08:36 [info] 5407#0: *100 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:09:05 [error] 5407#0: *125 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 23:09:05 [error] 5407#0: *125 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 23:09:05 [error] 5407#0: *125 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/01/20 23:09:40 [info] 5407#0: *121 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:10:31 [info] 5407#0: *126 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/01/20 23:16:23 [info] 5407#0: *132 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
