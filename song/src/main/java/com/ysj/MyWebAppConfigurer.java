@@ -22,7 +22,7 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
                         "access-control-max-age",
                         "X-Frame-Options")
                 //是否允许证书(是否支持跨域用户凭证),不再默认开启
-                .allowCredentials(true)
+//                .allowCredentials(true)
                 //跨域允许时间
                 .maxAge(3600);
     }

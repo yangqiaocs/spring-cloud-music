@@ -1,17 +1,9 @@
 package com.ysj.entity;
 
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.DateFormat;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
 
 /**
  * <p>
@@ -19,50 +11,29 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
  * </p>
  *
  * @author ysj
- * @since 2021-11-29
+ * @since 2022-02-04
  */
 @Data
   @EqualsAndHashCode(callSuper = false)
-    @TableName("Song")
-@Document(indexName = "song",createIndex = true)
-public class Song implements Serializable {
+    public class Song implements Serializable {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
-    @Id
-    @Field(type = FieldType.Keyword)
-      @TableId("SongID")
-      private String SongID;
+      private String songId;
 
-    @Field(type = FieldType.Keyword)
-    @TableField(value = "SongName")
-    private String SongName;
+    private String songName;
 
-    @TableField("Singer")
-    @Field(type = FieldType.Text)
-    private String Singer;
+    private String songSinger;
 
-    @TableField("Intro")
-    @Field(type = FieldType.Text)
-    private String Intro;
+    private String songIntroduction;
 
-    @TableField("Lyrics")
-    @Field(type = FieldType.Text)
-    private String Lyrics;
+    private String musicLyrics;
 
-    @TableField("Picture")
-    @Field(type = FieldType.Text)
-    private String Picture;
+    private String musicPicture;
 
-    @TableField("Music")
-    @Field(type = FieldType.Text)
-    private String Music;
+    private String musicMusic;
 
-    @TableField("SongCommentIDSet")
-    @Field(type = FieldType.Text)
-    private String SongCommentIDSet;
+    private LocalDateTime uploadTime;
 
-    @TableField(value = "UploadTime",select = false)
-    @Field(type = FieldType.Date,format = DateFormat.basic_date_time)
-    private LocalDateTime UploadTime;
+
 }

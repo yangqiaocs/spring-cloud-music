@@ -18,12 +18,12 @@ public class GenerateTest {
         dataSourceConfig.setDbType(DbType.MYSQL);
         dataSourceConfig.setDriverName("com.mysql.cj.jdbc.Driver");
         dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("977372ysj");
+        dataSourceConfig.setPassword("root");
         dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/music");
         autoGenerator.setDataSource(dataSourceConfig);
         //全局配置
         GlobalConfig globalConfig = new GlobalConfig();
-        globalConfig.setOutputDir(System.getProperty("user.dir")+"/music/src/main/java");
+        globalConfig.setOutputDir(System.getProperty("user.dir")+"/song/src/main/java");
         globalConfig.setAuthor("ysj");
         globalConfig.setOpen(false);
         globalConfig.setServiceName("%sService");
@@ -32,14 +32,14 @@ public class GenerateTest {
         PackageConfig packageConfig = new PackageConfig();
         packageConfig.setParent("com.ysj");
         packageConfig.setEntity("entity");
-        packageConfig.setMapper("mapper");
-        packageConfig.setService("service");
-        packageConfig.setServiceImpl("service.impl");
-        packageConfig.setController("controller");
+//        packageConfig.setMapper("mapper");
+//        packageConfig.setService("service");
+//        packageConfig.setServiceImpl("service.impl");
+//        packageConfig.setController("controller");
         autoGenerator.setPackageInfo(packageConfig);
         //策略配置
         StrategyConfig strategyConfig = new StrategyConfig();
-        strategyConfig.setInclude("Song");
+        strategyConfig.setInclude("song");
         strategyConfig.setNaming(NamingStrategy.underline_to_camel);
         strategyConfig.setColumnNaming(NamingStrategy.underline_to_camel);
         strategyConfig.setEntityLombokModel(true);

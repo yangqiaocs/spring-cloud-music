@@ -4,12 +4,9 @@ package com.ysj.Controller;
 import com.ysj.entity.Song;
 import com.ysj.service.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import org.springframework.stereotype.Controller;
-
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
@@ -21,14 +18,13 @@ import java.util.List;
  * @since 2021-11-29
  */
 @RestController
-@RequestMapping("//song")
+@RequestMapping("/song")
 @CrossOrigin
 public class SongController {
 
     @Autowired
     private SongService songService;
 
-//    @LoadBalanced
     @GetMapping("/list")
     public List<Song> List(){
         return songService.list();
@@ -39,13 +35,11 @@ public class SongController {
         return songService.list().size();
     }
 
-
-
     /*
      *根据某首歌的id得到此首歌曲的信息
      */
-    @PostMapping("/getsong")
-    public Song getSong(@RequestParam String songId){
+    @PostMapping("/{songId}")
+    public Song getSong(@PathVariable String songId){
         return songService.getById(songId);
 
     }
@@ -54,11 +48,11 @@ public class SongController {
     /*
     得到所有歌曲信息
      */
-    @RequestMapping("/getsongs")
+    @GetMapping("/getsongs")
     public List<Song> getSongs(){
-        System.out.println("getsongs");
         return songService.list().subList(0,20) ;
     }
+
 
     @PostMapping("/search")
     public List<Song> searchSong(@RequestBody String keyword){
@@ -66,6 +60,8 @@ public class SongController {
 //        elasticsearchTemplate.putMapping(Song.class);
         return songService.list().subList(0,20);
     }
+
+
 
 }
 
