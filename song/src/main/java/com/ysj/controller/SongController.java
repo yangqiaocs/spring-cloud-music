@@ -1,4 +1,4 @@
-package com.ysj.Controller;
+package com.ysj.controller;
 
 
 import com.ysj.entity.Song;
@@ -6,7 +6,6 @@ import com.ysj.service.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
