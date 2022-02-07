@@ -18,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/song")
-@CrossOrigin
+//@CrossOrigin
 public class SongController {
 
     @Autowired
@@ -40,7 +40,6 @@ public class SongController {
     @PostMapping("/{songId}")
     public Song getSong(@PathVariable String songId){
         return songService.getById(songId);
-
     }
 
 
@@ -52,13 +51,17 @@ public class SongController {
         return songService.list().subList(0,20) ;
     }
 
-
     @PostMapping("/search")
-    public List<Song> searchSong(@RequestBody String keyword){
-//        elasticsearchTemplate.createIndex(Song.class);
-//        elasticsearchTemplate.putMapping(Song.class);
-        return songService.list().subList(0,20);
+    public List<Song> searchSong(@RequestParam String keyword){
+        return songService.findByKeyword(keyword);
     }
+
+//    @PostMapping("/search")
+//    public List<Song> searchSong(@RequestBody String keyword){
+////        elasticsearchTemplate.createIndex(Song.class);
+////        elasticsearchTemplate.putMapping(Song.class);
+//        return songService.list().subList(0,20);
+//    }
 
 
 

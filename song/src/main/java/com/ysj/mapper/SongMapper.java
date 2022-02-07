@@ -2,6 +2,9 @@ package com.ysj.mapper;
 
 import com.ysj.entity.Song;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface SongMapper extends BaseMapper<Song> {
 
+	List<Song> findByKeyword(@Param("keyword") String keyword);
 }

@@ -32,14 +32,14 @@ public class GenerateTest {
         PackageConfig packageConfig = new PackageConfig();
         packageConfig.setParent("com.ysj");
         packageConfig.setEntity("entity");
-//        packageConfig.setMapper("mapper");
-//        packageConfig.setService("service");
-//        packageConfig.setServiceImpl("service.impl");
-//        packageConfig.setController("controller");
+        packageConfig.setMapper("mapper");
+        packageConfig.setService("service");
+        packageConfig.setServiceImpl("service.impl");
+        packageConfig.setController("controller");
         autoGenerator.setPackageInfo(packageConfig);
         //策略配置
         StrategyConfig strategyConfig = new StrategyConfig();
-        strategyConfig.setInclude("song");
+        strategyConfig.setInclude("list_song","song_list");
         strategyConfig.setNaming(NamingStrategy.underline_to_camel);
         strategyConfig.setColumnNaming(NamingStrategy.underline_to_camel);
         strategyConfig.setEntityLombokModel(true);
