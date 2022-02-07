@@ -1001,3 +1001,369 @@
 2022/01/20 23:09:40 [info] 5407#0: *121 kevent() reported that client 127.0.0.1 closed keepalive connection
 2022/01/20 23:10:31 [info] 5407#0: *126 kevent() reported that client 127.0.0.1 closed keepalive connection
 2022/01/20 23:16:23 [info] 5407#0: *132 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [emerg] 1837#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [notice] 1837#0: try again to bind() after 500ms
+2022/02/07 21:06:01 [emerg] 1837#0: still could not bind()
+2022/02/07 21:06:01 [emerg] 1837#0: still could not bind()
+2022/02/07 21:06:01 [emerg] 1837#0: still could not bind()
+2022/02/07 21:06:13 [notice] 1864#0: using the "kqueue" event method
+2022/02/07 21:06:13 [notice] 1864#0: using the "kqueue" event method
+2022/02/07 21:06:13 [notice] 1864#0: nginx/1.17.1
+2022/02/07 21:06:13 [notice] 1864#0: nginx/1.17.1
+2022/02/07 21:06:13 [notice] 1864#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:06:13 [notice] 1864#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:06:13 [notice] 1864#0: OS: Darwin 21.2.0
+2022/02/07 21:06:13 [notice] 1864#0: OS: Darwin 21.2.0
+2022/02/07 21:06:13 [notice] 1864#0: hw.ncpu: 8
+2022/02/07 21:06:13 [notice] 1864#0: hw.ncpu: 8
+2022/02/07 21:06:13 [notice] 1864#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:06:13 [notice] 1864#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:06:13 [notice] 1864#0: kern.ipc.somaxconn: 128
+2022/02/07 21:06:13 [notice] 1864#0: kern.ipc.somaxconn: 128
+2022/02/07 21:06:13 [notice] 1864#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:06:13 [notice] 1864#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:06:13 [notice] 1864#0: start worker processes
+2022/02/07 21:06:13 [notice] 1864#0: start worker processes
+2022/02/07 21:06:13 [notice] 1864#0: start worker process 1865
+2022/02/07 21:06:13 [notice] 1864#0: start worker process 1865
+2022/02/07 21:06:19 [error] 1865#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:06:19 [error] 1865#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:06:19 [error] 1865#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:06:20 [info] 1865#0: *10 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:06:27 [info] 1865#0: *20 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:07:13 [info] 1865#0: *26 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:07:18 [info] 1865#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:07:24 [info] 1865#0: *33 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:08:18 [info] 1865#0: *42 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:08:18 [error] 1865#0: *47 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:08:18 [error] 1865#0: *47 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:08:18 [error] 1865#0: *47 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:08:23 [info] 1865#0: *29 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:08:49 [info] 1865#0: *45 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:09:00 [info] 1865#0: *54 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/07 21:09:00 [error] 1865#0: *57 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/07 21:09:00 [error] 1865#0: *57 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/07 21:09:00 [error] 1865#0: *57 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/07 21:09:15 [info] 1865#0: *36 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:09:15 [info] 1865#0: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:09:15 [info] 1865#0: *40 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:10:19 [info] 1865#0: *68 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:11:19 [info] 1865#0: *63 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:12:33 [info] 1865#0: *76 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:12:35 [info] 1865#0: *86 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:13:09 [info] 1865#0: *101 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:13:34 [info] 1865#0: *92 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:14:29 [notice] 1864#0: signal 15 (SIGTERM) received from 2130, exiting
+2022/02/07 21:14:29 [notice] 1864#0: signal 15 (SIGTERM) received from 2130, exiting
+2022/02/07 21:14:29 [notice] 1865#0: exiting
+2022/02/07 21:14:29 [notice] 1865#0: exiting
+2022/02/07 21:14:29 [notice] 1864#0: signal 23 (SIGIO) received from 1865
+2022/02/07 21:14:29 [notice] 1864#0: signal 23 (SIGIO) received from 1865
+2022/02/07 21:14:29 [notice] 1865#0: exit
+2022/02/07 21:14:29 [notice] 1864#0: signal 20 (SIGCHLD) received from 1865
+2022/02/07 21:14:29 [notice] 1864#0: signal 20 (SIGCHLD) received from 1865
+2022/02/07 21:14:29 [notice] 1864#0: worker process 1865 exited with code 0
+2022/02/07 21:14:29 [notice] 1864#0: worker process 1865 exited with code 0
+2022/02/07 21:14:29 [notice] 1864#0: exit
+2022/02/07 21:14:29 [notice] 1864#0: exit
+2022/02/07 21:14:30 [notice] 2134#0: using the "kqueue" event method
+2022/02/07 21:14:30 [notice] 2134#0: using the "kqueue" event method
+2022/02/07 21:14:30 [notice] 2134#0: nginx/1.17.1
+2022/02/07 21:14:30 [notice] 2134#0: nginx/1.17.1
+2022/02/07 21:14:30 [notice] 2134#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:14:30 [notice] 2134#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:14:30 [notice] 2134#0: OS: Darwin 21.2.0
+2022/02/07 21:14:30 [notice] 2134#0: OS: Darwin 21.2.0
+2022/02/07 21:14:30 [notice] 2134#0: hw.ncpu: 8
+2022/02/07 21:14:30 [notice] 2134#0: hw.ncpu: 8
+2022/02/07 21:14:30 [notice] 2134#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:14:30 [notice] 2134#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:14:30 [notice] 2134#0: kern.ipc.somaxconn: 128
+2022/02/07 21:14:30 [notice] 2134#0: kern.ipc.somaxconn: 128
+2022/02/07 21:14:30 [notice] 2134#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:14:30 [notice] 2134#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:14:30 [notice] 2134#0: start worker processes
+2022/02/07 21:14:30 [notice] 2134#0: start worker processes
+2022/02/07 21:14:30 [notice] 2134#0: start worker process 2135
+2022/02/07 21:14:30 [notice] 2134#0: start worker process 2135
+2022/02/07 21:14:38 [info] 2135#0: *12 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:14:41 [info] 2135#0: *18 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:15:37 [info] 2135#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:15:47 [notice] 2134#0: signal 15 (SIGTERM) received from 2158, exiting
+2022/02/07 21:15:47 [notice] 2134#0: signal 15 (SIGTERM) received from 2158, exiting
+2022/02/07 21:15:47 [notice] 2135#0: exiting
+2022/02/07 21:15:47 [notice] 2135#0: exiting
+2022/02/07 21:15:47 [notice] 2134#0: signal 23 (SIGIO) received from 2135
+2022/02/07 21:15:47 [notice] 2134#0: signal 23 (SIGIO) received from 2135
+2022/02/07 21:15:47 [notice] 2135#0: exit
+2022/02/07 21:15:47 [notice] 2134#0: signal 20 (SIGCHLD) received from 2135
+2022/02/07 21:15:47 [notice] 2134#0: signal 20 (SIGCHLD) received from 2135
+2022/02/07 21:15:47 [notice] 2134#0: worker process 2135 exited with code 0
+2022/02/07 21:15:47 [notice] 2134#0: worker process 2135 exited with code 0
+2022/02/07 21:15:47 [notice] 2134#0: exit
+2022/02/07 21:15:47 [notice] 2134#0: exit
+2022/02/07 21:15:47 [notice] 2162#0: using the "kqueue" event method
+2022/02/07 21:15:47 [notice] 2162#0: using the "kqueue" event method
+2022/02/07 21:15:47 [notice] 2162#0: nginx/1.17.1
+2022/02/07 21:15:47 [notice] 2162#0: nginx/1.17.1
+2022/02/07 21:15:47 [notice] 2162#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:15:47 [notice] 2162#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:15:47 [notice] 2162#0: OS: Darwin 21.2.0
+2022/02/07 21:15:47 [notice] 2162#0: OS: Darwin 21.2.0
+2022/02/07 21:15:47 [notice] 2162#0: hw.ncpu: 8
+2022/02/07 21:15:47 [notice] 2162#0: hw.ncpu: 8
+2022/02/07 21:15:47 [notice] 2162#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:15:47 [notice] 2162#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:15:47 [notice] 2162#0: kern.ipc.somaxconn: 128
+2022/02/07 21:15:47 [notice] 2162#0: kern.ipc.somaxconn: 128
+2022/02/07 21:15:47 [notice] 2162#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:15:47 [notice] 2162#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:15:47 [notice] 2162#0: start worker processes
+2022/02/07 21:15:47 [notice] 2162#0: start worker processes
+2022/02/07 21:15:47 [notice] 2162#0: start worker process 2163
+2022/02/07 21:15:47 [notice] 2162#0: start worker process 2163
+2022/02/07 21:15:51 [notice] 2162#0: signal 15 (SIGTERM) received from 2168, exiting
+2022/02/07 21:15:51 [notice] 2162#0: signal 15 (SIGTERM) received from 2168, exiting
+2022/02/07 21:15:51 [notice] 2163#0: exiting
+2022/02/07 21:15:51 [notice] 2163#0: exiting
+2022/02/07 21:15:51 [notice] 2162#0: signal 23 (SIGIO) received from 2163
+2022/02/07 21:15:51 [notice] 2162#0: signal 23 (SIGIO) received from 2163
+2022/02/07 21:15:51 [notice] 2163#0: exit
+2022/02/07 21:15:51 [notice] 2162#0: signal 20 (SIGCHLD) received from 2163
+2022/02/07 21:15:51 [notice] 2162#0: signal 20 (SIGCHLD) received from 2163
+2022/02/07 21:15:51 [notice] 2162#0: worker process 2163 exited with code 0
+2022/02/07 21:15:51 [notice] 2162#0: worker process 2163 exited with code 0
+2022/02/07 21:15:51 [notice] 2162#0: exit
+2022/02/07 21:15:51 [notice] 2162#0: exit
+2022/02/07 21:15:51 [notice] 2172#0: using the "kqueue" event method
+2022/02/07 21:15:51 [notice] 2172#0: using the "kqueue" event method
+2022/02/07 21:15:51 [notice] 2172#0: nginx/1.17.1
+2022/02/07 21:15:51 [notice] 2172#0: nginx/1.17.1
+2022/02/07 21:15:51 [notice] 2172#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:15:51 [notice] 2172#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:15:51 [notice] 2172#0: OS: Darwin 21.2.0
+2022/02/07 21:15:51 [notice] 2172#0: OS: Darwin 21.2.0
+2022/02/07 21:15:51 [notice] 2172#0: hw.ncpu: 8
+2022/02/07 21:15:51 [notice] 2172#0: hw.ncpu: 8
+2022/02/07 21:15:51 [notice] 2172#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:15:51 [notice] 2172#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:15:51 [notice] 2172#0: kern.ipc.somaxconn: 128
+2022/02/07 21:15:51 [notice] 2172#0: kern.ipc.somaxconn: 128
+2022/02/07 21:15:51 [notice] 2172#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:15:51 [notice] 2172#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:15:51 [notice] 2172#0: start worker processes
+2022/02/07 21:15:51 [notice] 2172#0: start worker processes
+2022/02/07 21:15:51 [notice] 2172#0: start worker process 2173
+2022/02/07 21:15:51 [notice] 2172#0: start worker process 2173
+2022/02/07 21:16:07 [notice] 2172#0: signal 15 (SIGTERM) received from 2183, exiting
+2022/02/07 21:16:07 [notice] 2172#0: signal 15 (SIGTERM) received from 2183, exiting
+2022/02/07 21:16:07 [notice] 2173#0: exiting
+2022/02/07 21:16:07 [notice] 2173#0: exiting
+2022/02/07 21:16:07 [notice] 2172#0: signal 23 (SIGIO) received from 2173
+2022/02/07 21:16:07 [notice] 2172#0: signal 23 (SIGIO) received from 2173
+2022/02/07 21:16:07 [notice] 2173#0: exit
+2022/02/07 21:16:07 [notice] 2172#0: signal 20 (SIGCHLD) received from 2173
+2022/02/07 21:16:07 [notice] 2172#0: signal 20 (SIGCHLD) received from 2173
+2022/02/07 21:16:07 [notice] 2172#0: worker process 2173 exited with code 0
+2022/02/07 21:16:07 [notice] 2172#0: worker process 2173 exited with code 0
+2022/02/07 21:16:07 [notice] 2172#0: exit
+2022/02/07 21:16:07 [notice] 2172#0: exit
+2022/02/07 21:16:07 [notice] 2187#0: using the "kqueue" event method
+2022/02/07 21:16:07 [notice] 2187#0: using the "kqueue" event method
+2022/02/07 21:16:07 [notice] 2187#0: nginx/1.17.1
+2022/02/07 21:16:07 [notice] 2187#0: nginx/1.17.1
+2022/02/07 21:16:07 [notice] 2187#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:16:07 [notice] 2187#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:16:07 [notice] 2187#0: OS: Darwin 21.2.0
+2022/02/07 21:16:07 [notice] 2187#0: OS: Darwin 21.2.0
+2022/02/07 21:16:07 [notice] 2187#0: hw.ncpu: 8
+2022/02/07 21:16:07 [notice] 2187#0: hw.ncpu: 8
+2022/02/07 21:16:07 [notice] 2187#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:16:07 [notice] 2187#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:16:07 [notice] 2187#0: kern.ipc.somaxconn: 128
+2022/02/07 21:16:07 [notice] 2187#0: kern.ipc.somaxconn: 128
+2022/02/07 21:16:07 [notice] 2187#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:16:07 [notice] 2187#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:16:07 [notice] 2187#0: start worker processes
+2022/02/07 21:16:07 [notice] 2187#0: start worker processes
+2022/02/07 21:16:07 [notice] 2187#0: start worker process 2188
+2022/02/07 21:16:07 [notice] 2187#0: start worker process 2188
+2022/02/07 21:16:11 [info] 2188#0: *10 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:17:10 [info] 2188#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:17:34 [info] 2188#0: *23 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:18:32 [info] 2188#0: *16 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [warn] 2188#0: *37 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [warn] 2188#0: *37 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [error] 2188#0: *37 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [warn] 2188#0: *37 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:19:08 [warn] 2188#0: *37 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:20:07 [info] 2188#0: *27 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:26:25 [notice] 2187#0: signal 15 (SIGTERM) received from 2380, exiting
+2022/02/07 21:26:25 [notice] 2187#0: signal 15 (SIGTERM) received from 2380, exiting
+2022/02/07 21:26:25 [notice] 2188#0: exiting
+2022/02/07 21:26:25 [notice] 2188#0: exiting
+2022/02/07 21:26:25 [notice] 2187#0: signal 23 (SIGIO) received from 2188
+2022/02/07 21:26:25 [notice] 2187#0: signal 23 (SIGIO) received from 2188
+2022/02/07 21:26:25 [notice] 2188#0: exit
+2022/02/07 21:26:25 [notice] 2187#0: signal 20 (SIGCHLD) received from 2188
+2022/02/07 21:26:25 [notice] 2187#0: signal 20 (SIGCHLD) received from 2188
+2022/02/07 21:26:25 [notice] 2187#0: worker process 2188 exited with code 0
+2022/02/07 21:26:25 [notice] 2187#0: worker process 2188 exited with code 0
+2022/02/07 21:26:25 [notice] 2187#0: exit
+2022/02/07 21:26:25 [notice] 2187#0: exit
+2022/02/07 21:26:25 [notice] 2385#0: using the "kqueue" event method
+2022/02/07 21:26:25 [notice] 2385#0: using the "kqueue" event method
+2022/02/07 21:26:25 [notice] 2385#0: nginx/1.17.1
+2022/02/07 21:26:25 [notice] 2385#0: nginx/1.17.1
+2022/02/07 21:26:25 [notice] 2385#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:26:25 [notice] 2385#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:26:25 [notice] 2385#0: OS: Darwin 21.2.0
+2022/02/07 21:26:25 [notice] 2385#0: OS: Darwin 21.2.0
+2022/02/07 21:26:25 [notice] 2385#0: hw.ncpu: 8
+2022/02/07 21:26:25 [notice] 2385#0: hw.ncpu: 8
+2022/02/07 21:26:25 [notice] 2385#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:26:25 [notice] 2385#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:26:25 [notice] 2385#0: kern.ipc.somaxconn: 128
+2022/02/07 21:26:25 [notice] 2385#0: kern.ipc.somaxconn: 128
+2022/02/07 21:26:25 [notice] 2385#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:26:25 [notice] 2385#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:26:25 [notice] 2385#0: start worker processes
+2022/02/07 21:26:25 [notice] 2385#0: start worker processes
+2022/02/07 21:26:25 [notice] 2385#0: start worker process 2386
+2022/02/07 21:26:25 [notice] 2385#0: start worker process 2386
+2022/02/07 21:27:28 [info] 2386#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:28:50 [info] 2386#0: *15 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:30:40 [info] 2386#0: *32 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:32:37 [notice] 2385#0: signal 15 (SIGTERM) received from 2540, exiting
+2022/02/07 21:32:37 [notice] 2385#0: signal 15 (SIGTERM) received from 2540, exiting
+2022/02/07 21:32:37 [notice] 2386#0: exiting
+2022/02/07 21:32:37 [notice] 2386#0: exiting
+2022/02/07 21:32:37 [notice] 2385#0: signal 23 (SIGIO) received from 2386
+2022/02/07 21:32:37 [notice] 2386#0: exit
+2022/02/07 21:32:37 [notice] 2385#0: signal 23 (SIGIO) received from 2386
+2022/02/07 21:32:37 [notice] 2385#0: signal 20 (SIGCHLD) received from 2386
+2022/02/07 21:32:37 [notice] 2385#0: signal 20 (SIGCHLD) received from 2386
+2022/02/07 21:32:37 [notice] 2385#0: worker process 2386 exited with code 0
+2022/02/07 21:32:37 [notice] 2385#0: worker process 2386 exited with code 0
+2022/02/07 21:32:37 [notice] 2385#0: exit
+2022/02/07 21:32:37 [notice] 2385#0: exit
+2022/02/07 21:32:37 [notice] 2544#0: using the "kqueue" event method
+2022/02/07 21:32:37 [notice] 2544#0: using the "kqueue" event method
+2022/02/07 21:32:37 [notice] 2544#0: nginx/1.17.1
+2022/02/07 21:32:37 [notice] 2544#0: nginx/1.17.1
+2022/02/07 21:32:37 [notice] 2544#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:32:37 [notice] 2544#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:32:37 [notice] 2544#0: OS: Darwin 21.2.0
+2022/02/07 21:32:37 [notice] 2544#0: OS: Darwin 21.2.0
+2022/02/07 21:32:37 [notice] 2544#0: hw.ncpu: 8
+2022/02/07 21:32:37 [notice] 2544#0: hw.ncpu: 8
+2022/02/07 21:32:37 [notice] 2544#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:32:37 [notice] 2544#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:32:37 [notice] 2544#0: kern.ipc.somaxconn: 128
+2022/02/07 21:32:37 [notice] 2544#0: kern.ipc.somaxconn: 128
+2022/02/07 21:32:37 [notice] 2544#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:32:37 [notice] 2544#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:32:37 [notice] 2544#0: start worker processes
+2022/02/07 21:32:37 [notice] 2544#0: start worker processes
+2022/02/07 21:32:37 [notice] 2544#0: start worker process 2545
+2022/02/07 21:32:37 [notice] 2544#0: start worker process 2545
+2022/02/07 21:33:41 [info] 2545#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:33:55 [notice] 2544#0: signal 15 (SIGTERM) received from 2572, exiting
+2022/02/07 21:33:55 [notice] 2544#0: signal 15 (SIGTERM) received from 2572, exiting
+2022/02/07 21:33:55 [notice] 2545#0: exiting
+2022/02/07 21:33:55 [notice] 2544#0: signal 23 (SIGIO) received from 2545
+2022/02/07 21:33:55 [notice] 2544#0: signal 23 (SIGIO) received from 2545
+2022/02/07 21:33:55 [notice] 2545#0: exiting
+2022/02/07 21:33:55 [notice] 2545#0: exit
+2022/02/07 21:33:55 [notice] 2544#0: signal 20 (SIGCHLD) received from 2545
+2022/02/07 21:33:55 [notice] 2544#0: signal 20 (SIGCHLD) received from 2545
+2022/02/07 21:33:55 [notice] 2544#0: worker process 2545 exited with code 0
+2022/02/07 21:33:55 [notice] 2544#0: worker process 2545 exited with code 0
+2022/02/07 21:33:55 [notice] 2544#0: exit
+2022/02/07 21:33:55 [notice] 2544#0: exit
+2022/02/07 21:33:55 [notice] 2576#0: using the "kqueue" event method
+2022/02/07 21:33:55 [notice] 2576#0: using the "kqueue" event method
+2022/02/07 21:33:55 [notice] 2576#0: nginx/1.17.1
+2022/02/07 21:33:55 [notice] 2576#0: nginx/1.17.1
+2022/02/07 21:33:55 [notice] 2576#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:33:55 [notice] 2576#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/07 21:33:55 [notice] 2576#0: OS: Darwin 21.2.0
+2022/02/07 21:33:55 [notice] 2576#0: OS: Darwin 21.2.0
+2022/02/07 21:33:55 [notice] 2576#0: hw.ncpu: 8
+2022/02/07 21:33:55 [notice] 2576#0: hw.ncpu: 8
+2022/02/07 21:33:55 [notice] 2576#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:33:55 [notice] 2576#0: net.inet.tcp.sendspace: 131072
+2022/02/07 21:33:55 [notice] 2576#0: kern.ipc.somaxconn: 128
+2022/02/07 21:33:55 [notice] 2576#0: kern.ipc.somaxconn: 128
+2022/02/07 21:33:55 [notice] 2576#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:33:55 [notice] 2576#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/07 21:33:55 [notice] 2576#0: start worker processes
+2022/02/07 21:33:55 [notice] 2576#0: start worker processes
+2022/02/07 21:33:55 [notice] 2576#0: start worker process 2577
+2022/02/07 21:33:55 [notice] 2576#0: start worker process 2577
+2022/02/07 21:34:59 [info] 2577#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:36:45 [info] 2577#0: *21 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/07 21:37:43 [info] 2577#0: *15 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:38:16 [info] 2577#0: *31 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:38:20 [info] 2577#0: *38 kevent() reported that client prematurely closed connection, so upstream connection is closed too (54: Connection reset by peer) while reading upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list HTTP/1.1", upstream: "http://[::1]:9000/song/list", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:39:15 [info] 2577#0: *25 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:40:21 [info] 2577#0: *60 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:41:38 [info] 2577#0: *69 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:43:26 [info] 2577#0: *85 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:43:44 [info] 2577#0: *92 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:43:44 [info] 2577#0: *99 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:43:44 [info] 2577#0: *103 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:45:12 [info] 2577#0: *107 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:47:16 [info] 2577#0: *111 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 21:47:18 [info] 2577#0: *117 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:49:05 [info] 2577#0: *136 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:51:49 [info] 2577#0: *157 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:52:34 [error] 2577#0: *184 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:52:34 [error] 2577#0: *184 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:52:34 [error] 2577#0: *184 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:53:30 [info] 2577#0: *170 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 21:55:27 [error] 2577#0: *187 open() "/Users/qiao_yang/Desktop/stw/music/songs/00432d292aP8UC-Cu Phe Thoi/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /00432d292aP8UC-Cu%20Phe%20Thoi/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:55:27 [error] 2577#0: *187 open() "/Users/qiao_yang/Desktop/stw/music/songs/00432d292aP8UC-Cu Phe Thoi/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /00432d292aP8UC-Cu%20Phe%20Thoi/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:55:27 [error] 2577#0: *187 open() "/Users/qiao_yang/Desktop/stw/music/songs/00432d292aP8UC-Cu Phe Thoi/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /00432d292aP8UC-Cu%20Phe%20Thoi/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 21:55:27 [info] 2577#0: *187 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 22:19:25 [info] 2577#0: *194 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:25:23 [info] 2577#0: *209 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:36:13 [info] 2577#0: *231 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:37:19 [info] 2577#0: *242 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:39:04 [info] 2577#0: *266 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:40:07 [info] 2577#0: *274 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:41:19 [info] 2577#0: *294 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:42:24 [info] 2577#0: *311 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:43:37 [info] 2577#0: *336 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/07 22:43:43 [error] 2577#0: *346 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 22:43:43 [error] 2577#0: *346 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 22:43:43 [error] 2577#0: *346 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/07 22:44:29 [info] 2577#0: *330 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80

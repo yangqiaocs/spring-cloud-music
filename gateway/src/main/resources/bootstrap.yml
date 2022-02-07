@@ -7,7 +7,7 @@ spring:
         corsConfigurations:
           '[/**]':
             allowedHeaders: "*"
-            allowedOrigins: "*"
+            allowedOrigins: "http://music.local.com"
             allowedMethods:
               - GET
                 POST

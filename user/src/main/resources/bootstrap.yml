@@ -4,7 +4,7 @@ spring:
     name: selfmusic
     url: jdbc:mysql://mysql:3306/selfmusic?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: 977372ysj
+    password: root
   application:
     name: user
   redis:

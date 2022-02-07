@@ -20,7 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/song/songLiker")
-@CrossOrigin
+//@CrossOrigin
 public class SongLikerController {
 
 	@Autowired
