@@ -1367,3 +1367,101 @@
 2022/02/07 22:43:43 [error] 2577#0: *346 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
 2022/02/07 22:43:43 [error] 2577#0: *346 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
 2022/02/07 22:44:29 [info] 2577#0: *330 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/07 22:49:58 [notice] 2576#0: signal 15 (SIGTERM) received from 5128, exiting
+2022/02/07 22:49:58 [notice] 2576#0: signal 15 (SIGTERM) received from 5128, exiting
+2022/02/07 22:49:58 [notice] 2577#0: exiting
+2022/02/07 22:49:58 [notice] 2577#0: exiting
+2022/02/07 22:49:58 [notice] 2576#0: signal 23 (SIGIO) received from 2577
+2022/02/07 22:49:58 [notice] 2576#0: signal 23 (SIGIO) received from 2577
+2022/02/07 22:49:58 [notice] 2577#0: exit
+2022/02/07 22:49:58 [notice] 2576#0: signal 20 (SIGCHLD) received from 2577
+2022/02/07 22:49:58 [notice] 2576#0: signal 20 (SIGCHLD) received from 2577
+2022/02/07 22:49:58 [notice] 2576#0: worker process 2577 exited with code 0
+2022/02/07 22:49:58 [notice] 2576#0: worker process 2577 exited with code 0
+2022/02/07 22:49:58 [notice] 2576#0: exit
+2022/02/07 22:49:58 [notice] 2576#0: exit
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [emerg] 3774#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [notice] 3774#0: try again to bind() after 500ms
+2022/02/09 23:05:18 [emerg] 3774#0: still could not bind()
+2022/02/09 23:05:18 [emerg] 3774#0: still could not bind()
+2022/02/09 23:05:18 [emerg] 3774#0: still could not bind()
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [emerg] 5333#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [notice] 5333#0: try again to bind() after 500ms
+2022/02/09 23:38:32 [emerg] 5333#0: still could not bind()
+2022/02/09 23:38:32 [emerg] 5333#0: still could not bind()
+2022/02/09 23:38:32 [emerg] 5333#0: still could not bind()
+2022/02/09 23:38:49 [notice] 5357#0: using the "kqueue" event method
+2022/02/09 23:38:49 [notice] 5357#0: using the "kqueue" event method
+2022/02/09 23:38:49 [notice] 5357#0: nginx/1.17.1
+2022/02/09 23:38:49 [notice] 5357#0: nginx/1.17.1
+2022/02/09 23:38:49 [notice] 5357#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/09 23:38:49 [notice] 5357#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/09 23:38:49 [notice] 5357#0: OS: Darwin 21.2.0
+2022/02/09 23:38:49 [notice] 5357#0: OS: Darwin 21.2.0
+2022/02/09 23:38:49 [notice] 5357#0: hw.ncpu: 8
+2022/02/09 23:38:49 [notice] 5357#0: hw.ncpu: 8
+2022/02/09 23:38:49 [notice] 5357#0: net.inet.tcp.sendspace: 131072
+2022/02/09 23:38:49 [notice] 5357#0: net.inet.tcp.sendspace: 131072
+2022/02/09 23:38:49 [notice] 5357#0: kern.ipc.somaxconn: 128
+2022/02/09 23:38:49 [notice] 5357#0: kern.ipc.somaxconn: 128
+2022/02/09 23:38:49 [notice] 5357#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/09 23:38:49 [notice] 5357#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/09 23:38:49 [notice] 5357#0: start worker processes
+2022/02/09 23:38:49 [notice] 5357#0: start worker processes
+2022/02/09 23:38:49 [notice] 5357#0: start worker process 5358
+2022/02/09 23:38:49 [notice] 5357#0: start worker process 5358
+2022/02/09 23:38:54 [error] 5358#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/09 23:38:54 [error] 5358#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/09 23:38:54 [error] 5358#0: *15 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/09 23:38:59 [warn] 5358#0: *17 a client request body is buffered to a temporary file /usr/local/var/run/nginx/client_body_temp/0000000001, client: 127.0.0.1, server: musicback.local.com, request: "POST /song/upload HTTP/1.1", host: "localhost:8080"
+2022/02/09 23:38:59 [warn] 5358#0: *17 a client request body is buffered to a temporary file /usr/local/var/run/nginx/client_body_temp/0000000001, client: 127.0.0.1, server: musicback.local.com, request: "POST /song/upload HTTP/1.1", host: "localhost:8080"
+2022/02/09 23:39:53 [info] 5358#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/09 23:43:29 [info] 5358#0: *26 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/09 23:46:03 [info] 5358#0: *42 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/09 23:51:26 [info] 5358#0: *59 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80

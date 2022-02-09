@@ -1,12 +1,20 @@
 package com.ysj.controller;
 
 
+import com.ysj.YamlUtil;
 import com.ysj.entity.Song;
 import com.ysj.service.SongService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * <p>
@@ -23,6 +31,8 @@ public class SongController {
 
     @Autowired
     private SongService songService;
+    @Autowired
+    private YamlUtil yamlUtil;
 
     @GetMapping("/list")
     public List<Song> List(){
@@ -51,8 +61,8 @@ public class SongController {
         return songService.list().subList(0,20) ;
     }
 
-    @PostMapping("/search")
-    public List<Song> searchSong(@RequestParam String keyword){
+    @GetMapping("/search/{keyword}")
+    public List<Song> searchSong(@PathVariable String keyword){
         return songService.findByKeyword(keyword);
     }
 
@@ -63,7 +73,15 @@ public class SongController {
 //        return songService.list().subList(0,20);
 //    }
 
-
-
+    @PostMapping("/upload")
+    public void upload(@RequestParam MultipartFile file) throws IOException {
+        UUID uuid = UUID.randomUUID();
+        String fatherDir = yamlUtil.getUploadMusicLocation();
+        Path path = Paths.get(fatherDir+uuid);
+        Files.createDirectories(path);
+        String name = file.getOriginalFilename();
+        String filepath = fatherDir+uuid+"/music.mp3";
+        Files.write(Paths.get(filepath),file.getBytes());
+    }
 }
 

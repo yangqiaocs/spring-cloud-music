@@ -1,3 +1,9 @@
+
+music:
+  upload:
+   location: /Users/qiao_yang/Desktop/stw/music/songs/upload/
+
+
 spring:
   main:
     allow-bean-definition-overriding: true
