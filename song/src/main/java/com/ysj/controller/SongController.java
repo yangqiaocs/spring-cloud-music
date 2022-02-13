@@ -1,6 +1,7 @@
 package com.ysj.controller;
 
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ysj.YamlUtil;
 import com.ysj.entity.Song;
 import com.ysj.service.SongService;
@@ -35,13 +36,8 @@ public class SongController {
     private YamlUtil yamlUtil;
 
     @GetMapping("/list")
-    public List<Song> List(){
-        return songService.list();
-    }
-
-    @GetMapping("/nums")
-    public int Nums(){
-        return songService.list().size();
+    public Page<Song> List(@RequestParam Integer page, @RequestParam Integer pageSize){
+        return songService.list(page,pageSize);
     }
 
     /*
@@ -50,15 +46,6 @@ public class SongController {
     @PostMapping("/{songId}")
     public Song getSong(@PathVariable String songId){
         return songService.getById(songId);
-    }
-
-
-    /*
-    得到所有歌曲信息
-     */
-    @GetMapping("/getsongs")
-    public List<Song> getSongs(){
-        return songService.list().subList(0,20) ;
     }
 
     @GetMapping("/search/{keyword}")
@@ -79,7 +66,6 @@ public class SongController {
         String fatherDir = yamlUtil.getUploadMusicLocation();
         Path path = Paths.get(fatherDir+uuid);
         Files.createDirectories(path);
-        String name = file.getOriginalFilename();
         String filepath = fatherDir+uuid+"/music.mp3";
         Files.write(Paths.get(filepath),file.getBytes());
     }

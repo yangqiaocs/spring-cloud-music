@@ -1,7 +1,7 @@
 package com.ysj.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ysj.entity.Song;
-import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
 
@@ -13,7 +13,10 @@ import java.util.List;
  * @author ysj
  * @since 2022-02-04
  */
-public interface SongService extends IService<Song> {
+public interface SongService{
 
 	List<Song> findByKeyword(String keyword);
+	Page<Song> list(Integer page, Integer pageSize);
+
+	Song getById(String songId);
 }

@@ -1,15 +1,18 @@
 
+
 music:
+  mysql:
+    database: music
+    host: localhost
   upload:
-   location: /Users/qiao_yang/Desktop/stw/music/songs/upload/
-
-
+    location: /Users/qiao_yang/Desktop/stw/music/songs/upload/
+  crawler: /Users/qiao_yang/Desktop/stw/music/songs/crawler/crawler.py
 spring:
   main:
     allow-bean-definition-overriding: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    name: selfmusic
+    name: song
     url: jdbc:mysql://localhost:3306/music?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
@@ -25,7 +28,7 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath:com/ysj/mapper/xml/*.xml
+  mapper-locations: classpath:xml/*.xml
 
 eureka:
   client:

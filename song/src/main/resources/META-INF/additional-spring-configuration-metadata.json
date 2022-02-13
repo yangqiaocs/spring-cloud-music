@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "music.upload.location",
+      "type": "java.lang.String",
+      "description": "Description for music.upload.location."
+    },
+    {
+      "name": "music.mysql.host",
+      "type": "java.lang.String",
+      "description": "Description for music.upload.location."
+    },
+    {
+      "name": "music.mysql.database",
+      "type": "java.lang.String",
+      "description": "Description for music.upload.location."
+    },
+    {
+      "name": "music.crawler",
+      "type": "java.lang.String",
+      "description": "Description for music.crawler."
+    }
+  ] }

@@ -1465,3 +1465,536 @@
 2022/02/09 23:43:29 [info] 5358#0: *26 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
 2022/02/09 23:46:03 [info] 5358#0: *42 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
 2022/02/09 23:51:26 [info] 5358#0: *59 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/09 23:52:54 [info] 5358#0: *67 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/09 23:57:04 [info] 5358#0: *75 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:01:51 [info] 5358#0: *104 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:02:26 [error] 5358#0: *120 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:02:26 [error] 5358#0: *120 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:02:26 [error] 5358#0: *120 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:02:31 [info] 5358#0: *118 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/10 00:02:31 [error] 5358#0: *128 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:02:31 [error] 5358#0: *128 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:02:31 [error] 5358#0: *128 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 00:03:28 [info] 5358#0: *121 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:06:40 [info] 5358#0: *132 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:08:03 [info] 5358#0: *169 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:10:58 [info] 5358#0: *182 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:13:00 [info] 5358#0: *209 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:14:10 [info] 5358#0: *220 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:15:12 [info] 5358#0: *234 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:18:39 [info] 5358#0: *247 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:20:05 [info] 5358#0: *269 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:25:35 [info] 5358#0: *294 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:27:09 [info] 5358#0: *311 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:28:51 [info] 5358#0: *321 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:33:45 [info] 5358#0: *331 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:36:19 [info] 5358#0: *341 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:39:31 [info] 5358#0: *361 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:41:09 [info] 5358#0: *371 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:42:10 [info] 5358#0: *393 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/10 00:42:34 [info] 5358#0: *383 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:43:11 [info] 5358#0: *392 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/10 00:44:08 [info] 5358#0: *401 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:47:02 [info] 5358#0: *420 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:48:21 [info] 5358#0: *430 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:50:49 [info] 5358#0: *446 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 00:52:33 [info] 5358#0: *462 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 01:54:53 [notice] 5357#0: signal 15 (SIGTERM) received from 9260, exiting
+2022/02/10 01:54:53 [notice] 5357#0: signal 15 (SIGTERM) received from 9260, exiting
+2022/02/10 01:54:53 [notice] 5358#0: exiting
+2022/02/10 01:54:53 [notice] 5358#0: exiting
+2022/02/10 01:54:53 [notice] 5357#0: signal 23 (SIGIO) received from 5358
+2022/02/10 01:54:53 [notice] 5357#0: signal 23 (SIGIO) received from 5358
+2022/02/10 01:54:53 [notice] 5358#0: exit
+2022/02/10 01:54:53 [notice] 5357#0: signal 20 (SIGCHLD) received from 5358
+2022/02/10 01:54:53 [notice] 5357#0: signal 20 (SIGCHLD) received from 5358
+2022/02/10 01:54:53 [notice] 5357#0: worker process 5358 exited with code 0
+2022/02/10 01:54:53 [notice] 5357#0: worker process 5358 exited with code 0
+2022/02/10 01:54:53 [notice] 5357#0: exit
+2022/02/10 01:54:53 [notice] 5357#0: exit
+2022/02/10 21:29:52 [notice] 21899#0: using the "kqueue" event method
+2022/02/10 21:29:52 [notice] 21899#0: using the "kqueue" event method
+2022/02/10 21:29:52 [notice] 21899#0: nginx/1.17.1
+2022/02/10 21:29:52 [notice] 21899#0: nginx/1.17.1
+2022/02/10 21:29:52 [notice] 21899#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/10 21:29:52 [notice] 21899#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/10 21:29:52 [notice] 21899#0: OS: Darwin 21.2.0
+2022/02/10 21:29:52 [notice] 21899#0: OS: Darwin 21.2.0
+2022/02/10 21:29:52 [notice] 21899#0: hw.ncpu: 8
+2022/02/10 21:29:52 [notice] 21899#0: hw.ncpu: 8
+2022/02/10 21:29:52 [notice] 21899#0: net.inet.tcp.sendspace: 131072
+2022/02/10 21:29:52 [notice] 21899#0: net.inet.tcp.sendspace: 131072
+2022/02/10 21:29:52 [notice] 21899#0: kern.ipc.somaxconn: 128
+2022/02/10 21:29:52 [notice] 21899#0: kern.ipc.somaxconn: 128
+2022/02/10 21:29:52 [notice] 21899#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/10 21:29:52 [notice] 21899#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/10 21:29:52 [notice] 21899#0: start worker processes
+2022/02/10 21:29:52 [notice] 21899#0: start worker processes
+2022/02/10 21:29:52 [notice] 21899#0: start worker process 21900
+2022/02/10 21:29:52 [notice] 21899#0: start worker process 21900
+2022/02/10 21:30:52 [error] 21900#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:30:52 [error] 21900#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:30:52 [error] 21900#0: *14 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:31:09 [info] 21900#0: *20 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/10 21:31:23 [info] 21900#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 21:31:46 [info] 21900#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/10 21:33:17 [error] 21900#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:33:17 [error] 21900#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:33:17 [error] 21900#0: *33 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:33:21 [info] 21900#0: *24 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 21:36:35 [info] 21900#0: *44 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/10 21:36:39 [error] 21900#0: *54 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:36:39 [error] 21900#0: *54 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:36:39 [error] 21900#0: *54 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/10 21:37:27 [info] 21900#0: *40 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 21:42:30 [info] 21900#0: *62 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 21:52:30 [info] 21900#0: *98 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/10 21:53:56 [info] 21900#0: *116 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/11 09:03:56 [notice] 21899#0: signal 15 (SIGTERM) received from 23325, exiting
+2022/02/11 09:03:56 [notice] 21899#0: signal 15 (SIGTERM) received from 23325, exiting
+2022/02/11 09:03:56 [notice] 21900#0: exiting
+2022/02/11 09:03:56 [notice] 21900#0: exiting
+2022/02/11 09:03:56 [notice] 21899#0: signal 23 (SIGIO) received from 21900
+2022/02/11 09:03:56 [notice] 21899#0: signal 23 (SIGIO) received from 21900
+2022/02/11 09:03:56 [notice] 21900#0: exit
+2022/02/11 09:03:56 [notice] 21899#0: signal 20 (SIGCHLD) received from 21900
+2022/02/11 09:03:56 [notice] 21899#0: signal 20 (SIGCHLD) received from 21900
+2022/02/11 09:03:56 [notice] 21899#0: worker process 21900 exited with code 0
+2022/02/11 09:03:56 [notice] 21899#0: worker process 21900 exited with code 0
+2022/02/11 09:03:56 [notice] 21899#0: exit
+2022/02/11 09:03:56 [notice] 21899#0: exit
+2022/02/11 23:14:17 [notice] 37057#0: using the "kqueue" event method
+2022/02/11 23:14:17 [notice] 37057#0: using the "kqueue" event method
+2022/02/11 23:14:17 [notice] 37057#0: nginx/1.17.1
+2022/02/11 23:14:17 [notice] 37057#0: nginx/1.17.1
+2022/02/11 23:14:17 [notice] 37057#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/11 23:14:17 [notice] 37057#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/11 23:14:17 [notice] 37057#0: OS: Darwin 21.2.0
+2022/02/11 23:14:17 [notice] 37057#0: OS: Darwin 21.2.0
+2022/02/11 23:14:17 [notice] 37057#0: hw.ncpu: 8
+2022/02/11 23:14:17 [notice] 37057#0: hw.ncpu: 8
+2022/02/11 23:14:17 [notice] 37057#0: net.inet.tcp.sendspace: 131072
+2022/02/11 23:14:17 [notice] 37057#0: net.inet.tcp.sendspace: 131072
+2022/02/11 23:14:17 [notice] 37057#0: kern.ipc.somaxconn: 128
+2022/02/11 23:14:17 [notice] 37057#0: kern.ipc.somaxconn: 128
+2022/02/11 23:14:17 [notice] 37057#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/11 23:14:17 [notice] 37057#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2022/02/11 23:14:17 [notice] 37057#0: start worker processes
+2022/02/11 23:14:17 [notice] 37057#0: start worker processes
+2022/02/11 23:14:17 [notice] 37057#0: start worker process 37058
+2022/02/11 23:14:17 [notice] 37057#0: start worker process 37058
+2022/02/11 23:16:50 [error] 37058#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/11 23:16:50 [error] 37058#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/11 23:16:50 [error] 37058#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/11 23:17:46 [info] 37058#0: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/11 23:20:24 [info] 37058#0: *29 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/11 23:31:41 [info] 37058#0: *73 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/11 23:35:42 [info] 37058#0: *93 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/11 23:42:40 [info] 37058#0: *130 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/11 23:57:56 [warn] 37058#0: *154 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:57:56 [warn] 37058#0: *154 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:57:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:57:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:57:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:58:56 [warn] 37058#0: *154 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:58:56 [warn] 37058#0: *154 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:58:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:58:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/11 23:58:56 [error] 37058#0: *154 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:30:47 [warn] 37058#0: *162 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:30:47 [warn] 37058#0: *162 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:30:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:30:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:30:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:31:47 [warn] 37058#0: *162 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:31:47 [warn] 37058#0: *162 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:31:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:31:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 00:31:47 [error] 37058#0: *162 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list?page=1&pageSize=10 HTTP/1.1", upstream: "http://[::1]:9000/song/list?page=1&pageSize=10", host: "localhost:8080"
+2022/02/12 10:42:09 [info] 37058#0: *178 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:44:10 [info] 37058#0: *192 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:44:29 [info] 37058#0: *208 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/12 10:46:06 [info] 37058#0: *212 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:49:36 [info] 37058#0: *240 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:52:38 [info] 37058#0: *254 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:55:17 [info] 37058#0: *277 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:56:44 [info] 37058#0: *295 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 10:59:11 [info] 37058#0: *313 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:00:49 [info] 37058#0: *359 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:04:01 [info] 37058#0: *389 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:08:59 [info] 37058#0: *439 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:18:31 [info] 37058#0: *495 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:21:10 [info] 37058#0: *520 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:22:20 [info] 37058#0: *540 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:25:31 [info] 37058#0: *555 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:26:47 [info] 37058#0: *581 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 11:28:49 [error] 37058#0: *595 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 11:28:49 [error] 37058#0: *595 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 11:28:49 [error] 37058#0: *595 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 11:33:20 [info] 37058#0: *597 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 22:44:31 [info] 37058#0: *612 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 22:45:32 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:45:32 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:45:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:45:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:45:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:29 [warn] 37058#0: *663 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:29 [warn] 37058#0: *663 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:32 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:32 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:46:32 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=21&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=21&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:47:29 [warn] 37058#0: *663 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:47:29 [warn] 37058#0: *663 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:47:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:47:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:47:29 [error] 37058#0: *663 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=7&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=7&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:08 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:08 [warn] 37058#0: *620 upstream server temporarily disabled while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:08 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:08 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:08 [error] 37058#0: *620 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://[::1]:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:11 [error] 37058#0: *663 no live upstreams while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://user/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:11 [error] 37058#0: *663 no live upstreams while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://user/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:11 [error] 37058#0: *663 no live upstreams while connecting to upstream, client: 127.0.0.1, server: musicback.local.com, request: "OPTIONS /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://user/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:48:40 [info] 37058#0: *620 kevent() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/12 22:49:40 [info] 37058#0: *677 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 22:51:08 [info] 37058#0: *707 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/12 22:52:30 [info] 37058#0: *730 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 13:56:44 [info] 37058#0: *752 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 17:04:34 [error] 37058#0: *780 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:04:34 [error] 37058#0: *780 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:04:34 [error] 37058#0: *780 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:04:45 [info] 37058#0: *767 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 17:04:47 [info] 37058#0: *773 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /001aVDo84QkTjV-%E6%88%91%E5%BE%88%E5%A5%BD%E9%AA%97/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:06:47 [error] 37058#0: *789 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:06:47 [error] 37058#0: *789 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:06:47 [error] 37058#0: *789 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:06:47 [info] 37058#0: *789 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:07:18 [error] 37058#0: *787 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:07:18 [error] 37058#0: *787 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:07:18 [error] 37058#0: *787 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:07:18 [info] 37058#0: *787 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:07:40 [info] 37058#0: *782 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 17:07:56 [error] 37058#0: *788 open() "/usr/local/Cellar/nginx/1.17.1/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/0016LOAz3gsa0N-%E6%9C%89%E9%A3%8E%E7%9A%84%E5%A4%9C%E6%99%9A/music.mp3"
+2022/02/13 17:07:56 [error] 37058#0: *788 open() "/usr/local/Cellar/nginx/1.17.1/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/0016LOAz3gsa0N-%E6%9C%89%E9%A3%8E%E7%9A%84%E5%A4%9C%E6%99%9A/music.mp3"
+2022/02/13 17:07:56 [error] 37058#0: *788 open() "/usr/local/Cellar/nginx/1.17.1/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/0016LOAz3gsa0N-%E6%9C%89%E9%A3%8E%E7%9A%84%E5%A4%9C%E6%99%9A/music.mp3"
+2022/02/13 17:08:08 [error] 37058#0: *788 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:08 [error] 37058#0: *788 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:08 [error] 37058#0: *788 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:08 [info] 37058#0: *788 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:08:24 [error] 37058#0: *798 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:24 [error] 37058#0: *798 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:24 [error] 37058#0: *798 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:44 [error] 37058#0: *795 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:44 [error] 37058#0: *795 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:44 [error] 37058#0: *795 open() "/Users/qiao_yang/Desktop/stw/music/songs/0014URcV0YUYDE-团伙/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /0014URcV0YUYDE-%E5%9B%A2%E4%BC%99/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:44 [info] 37058#0: *795 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:08:52 [error] 37058#0: *812 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:52 [error] 37058#0: *812 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:08:52 [error] 37058#0: *812 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:09:03 [error] 37058#0: *806 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:09:03 [error] 37058#0: *806 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:09:03 [error] 37058#0: *806 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:09:03 [info] 37058#0: *806 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:09:46 [info] 37058#0: *799 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 17:11:53 [error] 37058#0: *821 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:11:53 [error] 37058#0: *821 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:11:53 [error] 37058#0: *821 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:11:53 [info] 37058#0: *821 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 17:12:48 [info] 37058#0: *814 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 17:13:01 [error] 37058#0: *826 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:13:01 [error] 37058#0: *826 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:13:01 [error] 37058#0: *826 open() "/Users/qiao_yang/Desktop/stw/music/songs/000FI5oj0FqGxj-不染 + 一个人喜欢一个人 + 牛奶面包 + 我们 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000FI5oj0FqGxj-%E4%B8%8D%E6%9F%93%20+%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%96%9C%E6%AC%A2%E4%B8%80%E4%B8%AA%E4%BA%BA%20+%20%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85%20+%20%E6%88%91%E4%BB%AC%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 17:13:01 [info] 37058#0: *826 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 21:46:00 [info] 37058#0: *844 kevent() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: musicback.local.com, request: "GET /song/list/?page=1&pageSize=20 HTTP/1.1", upstream: "http://127.0.0.1:9000/song/list/?page=1&pageSize=20", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:46:51 [info] 37058#0: *836 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 21:48:08 [error] 37058#0: *843 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:48:08 [error] 37058#0: *843 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:48:08 [error] 37058#0: *843 open() "/Users/qiao_yang/Desktop/stw/music/songs/000cbnoB0lbQTB-小酒窝 (Live)/music.mp3" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /000cbnoB0lbQTB-%E5%B0%8F%E9%85%92%E7%AA%9D%20(Live)/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:48:08 [info] 37058#0: *843 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 21:48:47 [info] 37058#0: *857 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 21:49:17 [error] 37058#0: *876 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:49:17 [error] 37058#0: *876 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:49:17 [error] 37058#0: *876 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 21:49:38 [info] 37058#0: *871 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/13 21:50:09 [info] 37058#0: *863 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:15:40 [error] 37058#0: *891 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:15:40 [error] 37058#0: *891 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:15:40 [error] 37058#0: *891 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:16:31 [info] 37058#0: *878 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:20:11 [info] 37058#0: *901 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:20:19 [error] 37058#0: *909 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:20:19 [error] 37058#0: *909 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:20:19 [error] 37058#0: *909 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:21:10 [info] 37058#0: *896 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:29:39 [info] 37058#0: *937 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:29:44 [error] 37058#0: *945 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:29:44 [error] 37058#0: *945 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:29:44 [error] 37058#0: *945 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:30:38 [info] 37058#0: *932 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:31:00 [info] 37058#0: *950 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:31:04 [error] 37058#0: *960 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:31:04 [error] 37058#0: *960 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:31:04 [error] 37058#0: *960 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:31:58 [info] 37058#0: *947 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:33:51 [info] 37058#0: *965 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:33:59 [error] 37058#0: *979 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:33:59 [error] 37058#0: *979 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:33:59 [error] 37058#0: *979 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:34:44 [info] 37058#0: *969 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /002QGyBn4atDSF-%E8%8A%B1%E6%88%BF%E5%92%96%E5%95%A1%E5%8E%85/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:34:50 [info] 37058#0: *962 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:34:50 [info] 37058#0: *968 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /002rwopi17bXLJ-%EA%B7%B8%EB%83%A5%20%EC%95%88%EC%95%84%EB%8B%AC%EB%9E%80%20%EB%A7%90%EC%95%BC/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:34:52 [info] 37058#0: *970 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /002QGyBn4atDSF-%E8%8A%B1%E6%88%BF%E5%92%96%E5%95%A1%E5%8E%85/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:37:21 [info] 37058#0: *994 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:45:24 [info] 37058#0: *1007 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:46:59 [error] 37058#0: *1055 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:46:59 [error] 37058#0: *1055 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:46:59 [error] 37058#0: *1055 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:47:46 [info] 37058#0: *1037 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:49:43 [info] 37058#0: *1074 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:49:45 [error] 37058#0: *1080 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:49:45 [error] 37058#0: *1080 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:49:45 [error] 37058#0: *1080 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:50:42 [info] 37058#0: *1071 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 22:52:27 [info] 37058#0: *1086 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /000B0ypt0gL3vR-%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:52:38 [info] 37058#0: *1084 kevent() reported about an closed connection (54: Connection reset by peer) while sending response to client, client: 127.0.0.1, server: musicback.local.com, request: "GET /0009KKab2WU7xZ-%E5%A4%A9%E5%85%89%E5%89%8D/music.mp3 HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:52:45 [info] 37058#0: *1087 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/13 22:56:41 [info] 37058#0: *1101 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 22:56:44 [error] 37058#0: *1113 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:56:44 [error] 37058#0: *1113 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:56:44 [error] 37058#0: *1113 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 22:57:40 [info] 37058#0: *1104 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:00:08 [info] 37058#0: *1124 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:00:10 [error] 37058#0: *1135 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:00:10 [error] 37058#0: *1135 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:00:10 [error] 37058#0: *1135 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:01:06 [info] 37058#0: *1127 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:02:04 [info] 37058#0: *1143 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:02:07 [info] 37058#0: *1152 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:03:01 [info] 37058#0: *1140 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:03:33 [error] 37058#0: *1166 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:03:33 [error] 37058#0: *1166 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:03:33 [error] 37058#0: *1166 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:03:55 [info] 37058#0: *1145 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/13 23:03:57 [info] 37058#0: *1144 kevent() reported that client 127.0.0.1 closed keepalive connection (54: Connection reset by peer)
+2022/02/13 23:04:24 [info] 37058#0: *1160 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:05:58 [info] 37058#0: *1173 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:06:01 [error] 37058#0: *1186 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:06:01 [error] 37058#0: *1186 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:06:01 [error] 37058#0: *1186 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:06:29 [info] 37058#0: *1172 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:06:56 [info] 37058#0: *1179 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:07:08 [error] 37058#0: *1202 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:07:08 [error] 37058#0: *1202 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:07:08 [error] 37058#0: *1202 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://music.local.com/"
+2022/02/13 23:12:51 [warn] 37058#0: *1205 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:12:51 [warn] 37058#0: *1205 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:13:10 [error] 37058#0: *1209 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:13:10 [error] 37058#0: *1209 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:13:10 [error] 37058#0: *1209 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:14:13 [info] 37058#0: *1205 kevent() reported that client 192.168.1.101 closed keepalive connection
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to [::]:80 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [emerg] 70253#0: bind() to 0.0.0.0:8080 failed (48: Address already in use)
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [notice] 70253#0: try again to bind() after 500ms
+2022/02/13 23:16:31 [emerg] 70253#0: still could not bind()
+2022/02/13 23:16:31 [emerg] 70253#0: still could not bind()
+2022/02/13 23:16:31 [emerg] 70253#0: still could not bind()
+2022/02/13 23:16:41 [notice] 37057#0: signal 15 (SIGTERM) received from 70257, exiting
+2022/02/13 23:16:41 [notice] 37057#0: signal 15 (SIGTERM) received from 70257, exiting
+2022/02/13 23:16:41 [notice] 37058#0: exiting
+2022/02/13 23:16:41 [notice] 37058#0: exiting
+2022/02/13 23:16:41 [notice] 37057#0: signal 23 (SIGIO) received from 37058
+2022/02/13 23:16:41 [notice] 37057#0: signal 23 (SIGIO) received from 37058
+2022/02/13 23:16:41 [notice] 37058#0: exit
+2022/02/13 23:16:41 [notice] 37057#0: signal 20 (SIGCHLD) received from 37058
+2022/02/13 23:16:41 [notice] 37057#0: signal 20 (SIGCHLD) received from 37058
+2022/02/13 23:16:41 [notice] 37057#0: worker process 37058 exited with code 0
+2022/02/13 23:16:41 [notice] 37057#0: worker process 37058 exited with code 0
+2022/02/13 23:16:41 [notice] 37057#0: exit
+2022/02/13 23:16:41 [notice] 37057#0: exit
+2022/02/13 23:16:41 [notice] 70261#0: using the "kqueue" event method
+2022/02/13 23:16:41 [notice] 70261#0: using the "kqueue" event method
+2022/02/13 23:16:41 [notice] 70261#0: nginx/1.17.1
+2022/02/13 23:16:41 [notice] 70261#0: nginx/1.17.1
+2022/02/13 23:16:41 [notice] 70261#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:16:41 [notice] 70261#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:16:41 [notice] 70261#0: OS: Darwin 21.2.0
+2022/02/13 23:16:41 [notice] 70261#0: OS: Darwin 21.2.0
+2022/02/13 23:16:41 [notice] 70261#0: hw.ncpu: 8
+2022/02/13 23:16:41 [notice] 70261#0: hw.ncpu: 8
+2022/02/13 23:16:41 [notice] 70261#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:16:41 [notice] 70261#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:16:41 [notice] 70261#0: kern.ipc.somaxconn: 128
+2022/02/13 23:16:41 [notice] 70261#0: kern.ipc.somaxconn: 128
+2022/02/13 23:16:41 [notice] 70261#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:16:41 [notice] 70261#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:16:41 [notice] 70261#0: start worker processes
+2022/02/13 23:16:41 [notice] 70261#0: start worker processes
+2022/02/13 23:16:41 [notice] 70261#0: start worker process 70262
+2022/02/13 23:16:41 [notice] 70261#0: start worker process 70262
+2022/02/13 23:18:49 [notice] 70261#0: signal 15 (SIGTERM) received from 70301, exiting
+2022/02/13 23:18:49 [notice] 70261#0: signal 15 (SIGTERM) received from 70301, exiting
+2022/02/13 23:18:49 [notice] 70262#0: exiting
+2022/02/13 23:18:49 [notice] 70262#0: exiting
+2022/02/13 23:18:49 [notice] 70261#0: signal 23 (SIGIO) received from 70262
+2022/02/13 23:18:49 [notice] 70261#0: signal 23 (SIGIO) received from 70262
+2022/02/13 23:18:49 [notice] 70262#0: exit
+2022/02/13 23:18:49 [notice] 70261#0: signal 20 (SIGCHLD) received from 70262
+2022/02/13 23:18:49 [notice] 70261#0: signal 20 (SIGCHLD) received from 70262
+2022/02/13 23:18:49 [notice] 70261#0: worker process 70262 exited with code 0
+2022/02/13 23:18:49 [notice] 70261#0: worker process 70262 exited with code 0
+2022/02/13 23:18:49 [notice] 70261#0: exit
+2022/02/13 23:18:49 [notice] 70261#0: exit
+2022/02/13 23:18:49 [notice] 70305#0: using the "kqueue" event method
+2022/02/13 23:18:49 [notice] 70305#0: using the "kqueue" event method
+2022/02/13 23:18:49 [notice] 70305#0: nginx/1.17.1
+2022/02/13 23:18:49 [notice] 70305#0: nginx/1.17.1
+2022/02/13 23:18:49 [notice] 70305#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:18:49 [notice] 70305#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:18:49 [notice] 70305#0: OS: Darwin 21.2.0
+2022/02/13 23:18:49 [notice] 70305#0: OS: Darwin 21.2.0
+2022/02/13 23:18:49 [notice] 70305#0: hw.ncpu: 8
+2022/02/13 23:18:49 [notice] 70305#0: hw.ncpu: 8
+2022/02/13 23:18:49 [notice] 70305#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:18:49 [notice] 70305#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:18:49 [notice] 70305#0: kern.ipc.somaxconn: 128
+2022/02/13 23:18:49 [notice] 70305#0: kern.ipc.somaxconn: 128
+2022/02/13 23:18:49 [notice] 70305#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:18:49 [notice] 70305#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:18:49 [notice] 70305#0: start worker processes
+2022/02/13 23:18:49 [notice] 70305#0: start worker processes
+2022/02/13 23:18:49 [notice] 70305#0: start worker process 70306
+2022/02/13 23:18:49 [notice] 70305#0: start worker process 70306
+2022/02/13 23:23:02 [notice] 70305#0: signal 15 (SIGTERM) received from 70392, exiting
+2022/02/13 23:23:02 [notice] 70305#0: signal 15 (SIGTERM) received from 70392, exiting
+2022/02/13 23:23:02 [notice] 70306#0: exiting
+2022/02/13 23:23:02 [notice] 70306#0: exiting
+2022/02/13 23:23:02 [notice] 70305#0: signal 23 (SIGIO) received from 70306
+2022/02/13 23:23:02 [notice] 70305#0: signal 23 (SIGIO) received from 70306
+2022/02/13 23:23:02 [notice] 70306#0: exit
+2022/02/13 23:23:02 [notice] 70305#0: signal 20 (SIGCHLD) received from 70306
+2022/02/13 23:23:02 [notice] 70305#0: signal 20 (SIGCHLD) received from 70306
+2022/02/13 23:23:02 [notice] 70305#0: worker process 70306 exited with code 0
+2022/02/13 23:23:02 [notice] 70305#0: worker process 70306 exited with code 0
+2022/02/13 23:23:02 [notice] 70305#0: exit
+2022/02/13 23:23:02 [notice] 70305#0: exit
+2022/02/13 23:23:03 [notice] 70397#0: using the "kqueue" event method
+2022/02/13 23:23:03 [notice] 70397#0: using the "kqueue" event method
+2022/02/13 23:23:03 [notice] 70397#0: nginx/1.17.1
+2022/02/13 23:23:03 [notice] 70397#0: nginx/1.17.1
+2022/02/13 23:23:03 [notice] 70397#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:23:03 [notice] 70397#0: built by clang 10.0.1 (clang-1001.0.46.4)
+2022/02/13 23:23:03 [notice] 70397#0: OS: Darwin 21.2.0
+2022/02/13 23:23:03 [notice] 70397#0: OS: Darwin 21.2.0
+2022/02/13 23:23:03 [notice] 70397#0: hw.ncpu: 8
+2022/02/13 23:23:03 [notice] 70397#0: hw.ncpu: 8
+2022/02/13 23:23:03 [notice] 70397#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:23:03 [notice] 70397#0: net.inet.tcp.sendspace: 131072
+2022/02/13 23:23:03 [notice] 70397#0: kern.ipc.somaxconn: 128
+2022/02/13 23:23:03 [notice] 70397#0: kern.ipc.somaxconn: 128
+2022/02/13 23:23:03 [notice] 70397#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:23:03 [notice] 70397#0: getrlimit(RLIMIT_NOFILE): 12544:9223372036854775807
+2022/02/13 23:23:03 [notice] 70397#0: start worker processes
+2022/02/13 23:23:03 [notice] 70397#0: start worker processes
+2022/02/13 23:23:03 [notice] 70397#0: start worker process 70398
+2022/02/13 23:23:03 [notice] 70397#0: start worker process 70398
+2022/02/13 23:23:19 [error] 70398#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/13 23:23:19 [error] 70398#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/13 23:23:19 [error] 70398#0: *9 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8091/"
+2022/02/13 23:25:22 [warn] 70398#0: *12 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:25:22 [warn] 70398#0: *12 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:26:22 [info] 70398#0: *14 client timed out (60: Operation timed out) while waiting for request, client: 192.168.1.101, server: 0.0.0.0:80
+2022/02/13 23:29:06 [error] 70398#0: *20 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:29:06 [error] 70398#0: *20 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:29:06 [error] 70398#0: *20 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:50:49 [info] 70398#0: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:51:47 [info] 70398#0: *43 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/02/13 23:52:42 [info] 70398#0: *56 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *59 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *60 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *61 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:42 [info] 70398#0: *67 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [info] 70398#0: *68 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [info] 70398#0: *69 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [info] 70398#0: *70 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [info] 70398#0: *71 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [info] 70398#0: *72 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:42 [error] 70398#0: *74 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:52:42 [error] 70398#0: *74 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:52:42 [error] 70398#0: *74 open() "/usr/local/Cellar/nginx/1.17.1/html/src/assets/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: musicback.local.com, request: "GET /src/assets/favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://192.168.1.100/"
+2022/02/13 23:52:49 [info] 70398#0: *86 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *87 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *88 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *89 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *92 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *93 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:52:49 [info] 70398#0: *94 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:49 [info] 70398#0: *95 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:49 [info] 70398#0: *96 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:49 [info] 70398#0: *97 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:49 [info] 70398#0: *98 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:52:49 [info] 70398#0: *99 kevent() reported that client 127.0.0.1 closed keepalive connection
+2022/02/13 23:53:28 [warn] 70398#0: *105 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:53:28 [warn] 70398#0: *105 an upstream response is buffered to a temporary file /usr/local/var/run/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 192.168.1.101, server: musicfront.local.com, request: "GET /app.js HTTP/1.1", upstream: "http://127.0.0.1:8091/app.js", host: "192.168.1.100", referrer: "http://192.168.1.100/"
+2022/02/13 23:53:41 [info] 70398#0: *53 client timed out (60: Operation timed out) while waiting for request, client: 192.168.1.100, server: 0.0.0.0:80
+2022/02/13 23:53:42 [info] 70398#0: *66 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/02/13 23:53:48 [info] 70398#0: *79 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
